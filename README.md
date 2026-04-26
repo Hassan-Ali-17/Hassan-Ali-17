@@ -70,17 +70,20 @@ I'm an ambitious **CS student** with hands-on industry experience at an **AI sta
 
 ## 📌 Featured Projects
 
-### 🍔 [Zaiqa On Wheels](https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website)
-> Full-stack food & grocery ordering platform — Flask/Django backend, HTML/CSS/JS frontend, SQLite database.
+### 🗄️ [Cost-Based SQL Query Optimizer](https://github.com/Hassan-Ali-17/Cost_Based_Query_Optimizer)
+> Built a full SQL optimizer from scratch in C/C++ — hand-written recursive-descent parser, Selinger DP join ordering, 4 rewrite rules, and per-column statistics. Achieves **100–1000× speedups** over naive query plans. Includes SQL shell, EXPLAIN, catalog cache, executor & benchmark suite.
 
-### 💼 [FairGig — Microservices Platform](https://github.com/Hassan-Ali-17/Softect26_project)
-> TypeScript-based platform for gig workers to track & verify earnings across platforms. Analytics dashboards + anomaly detection.
+### 💼 [FairGig — Softec 2026 Project](https://github.com/Hassan-Ali-17/Softect26_project)
+> TypeScript-based microservices platform for gig workers to track & verify earnings across platforms. Features analytics dashboards + anomaly detection. **Secured Top 5 at Softect 2026.**
+
+### 🍔 [Zaiqa On Wheels](https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website)
+> Full-stack food & grocery ordering platform — Flask backend, HTML/CSS/JS frontend, SQLite database with complete ordering and delivery flow.
+
+### 🚗 [Rental Car App (C++)](https://github.com/Hassan-Ali-17/rental_car_app_project)
+> Feature-rich car rental management system using raw arrays, dynamic memory, and file I/O — no STL, fully from scratch to demonstrate deep low-level C++ mastery.
 
 ### ♟️ [Scrabble Game (C++ & SFML)](https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble)
-> Full digital Scrabble game on a 15×15 board with proper scoring logic, built using OOP and SFML graphics.
-
-### 🚗 [Rental Car App (C++)](https://github.com/Hassan-Ali-17/rental_car_app)
-> Feature-rich car rental management system using raw arrays, dynamic memory, and file I/O — no STL, fully from scratch.
+> Full digital Scrabble game on a 15×15 board with proper scoring logic, built using OOP principles and SFML graphics library.
 
 ---
 
