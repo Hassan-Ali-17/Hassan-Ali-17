@@ -14,6 +14,8 @@
 
 ## 👨‍💻 About Me
 
+<img src="Hassan Ali Shah.jpg" width="150" height="150" style="border-radius:50%;" align="right"/>
+
 ```python
 hassan = {
     "name"       : "Hassan Ali Shah",
@@ -63,7 +65,6 @@ I'm an ambitious **CS student** with hands-on industry experience at an **AI sta
 | 🌍 | **International Rep — Act in Space 2026 (France)** | Represented Pakistan at the global finals organized by **CNES** & **ESA** |
 | 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team in the world's largest global hackathon by NASA |
 | ⚡ | **Participant — Code Rush Hackathon** | Competed in high-intensity algorithmic programming under pressure |
-| ⚡ | **Participant — Softec** | Competed in a fullstack web dev competetion and secured top 5 position |
 
 ---
 
