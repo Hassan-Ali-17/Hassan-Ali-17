@@ -65,6 +65,7 @@ I'm an ambitious **CS student** with hands-on industry experience at an **AI sta
 | 🌍 | **International Rep — Act in Space 2026 (France)** | Represented Pakistan at the global finals organized by **CNES** & **ESA** |
 | 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team in the world's largest global hackathon by NASA |
 | ⚡ | **Participant — Code Rush Hackathon** | Competed in high-intensity algorithmic programming under pressure |
+| ⚡ | **Participant — Softec 26** | Competed in a Full stack web dev category and secured top 5 position |
 
 ---
 
