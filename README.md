@@ -21,7 +21,6 @@ hassan = {
     "name"       : "Hassan Ali Shah",
     "role"       : ["Full Stack Developer", "AI/ML Engineer", "CS Student"],
     "university" : "Information Technology University (ITU), Lahore",
-    "cgpa"       : 3.02,
     "currently"  : "Building Agentic AI systems & MERN apps",
     "experience" : "ML/AI Intern @ CAASIAC (AI Startup)",
     "passion"    : ["Generative AI", "Autonomous Systems", "System Design"],
