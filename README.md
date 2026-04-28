@@ -1,47 +1,71 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&text=Hassan%20Ali%20Shah&fontSize=42&fontColor=fff&height=180&desc=Full%20Stack%20%7C%20AI%2FML%20Engineer%20%7C%20CS%20Student%20%40%20ITU&descSize=18&descAlignY=75&animation=fadeIn)
+<div align="center">
 
-<h3 align="center">
-  🚀 Building at the intersection of <strong>AI</strong> and <strong>Full Stack Engineering</strong>
-</h3>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0015,50:2d0057,100:ff00c8&text=Hassan%20Ali%20Shah&fontSize=48&fontColor=ff00c8&height=200&desc=Full%20Stack%20%E2%80%A2%20AI%2FML%20Engineer%20%E2%80%A2%20CS%20%40%20ITU%20Lahore&descSize=20&descAlignY=75&animation=fadeIn&fontAlignY=40)
 
-<p align="center">
-  <a href="mailto:hassanaalipnd@gmail.com"><img src="https://img.shields.io/badge/Gmail-hassanaalipnd@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/hassan-ali-shah-1b26a2333"><img src="https://img.shields.io/badge/LinkedIn-Hassan%20Ali%20Shah-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Hassan-Ali-17"><img src="https://img.shields.io/badge/GitHub-Hassan--Ali--17-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF00C8&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%2F+ML+Engineer+%F0%9F%A4%96;Agentic+AI+Builder+%F0%9F%A7%A0;National+Winner+%E2%80%94+Act+in+Space+2026+%F0%9F%8F%86;CS+Student+%40+ITU+Lahore+%F0%9F%8E%93)](https://github.com/Hassan-Ali-17)
+
+<br/>
+
+<img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-ff00c8?style=for-the-badge&labelColor=2d0057"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-b833ff?style=for-the-badge&labelColor=2d0057"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🚀%20Rep'd%20Pakistan-Act%20in%20Space%202026-ff00c8?style=for-the-badge&labelColor=2d0057"/>
+
+<br/><br/>
+
+<a href="mailto:hassanaalipnd@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/hassan-ali-shah-1b26a2333">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://github.com/Hassan-Ali-17">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## `> whoami`
 
 <img src="Hassan Ali Shah.jpg" width="150" height="150" style="border-radius:50%;" align="right"/>
 
 ```python
 hassan = {
-    "name"       : "Hassan Ali Shah",
-    "role"       : ["Full Stack Developer", "AI/ML Engineer", "CS Student"],
-    "university" : "Information Technology University (ITU), Lahore",
-    "currently"  : "Building Agentic AI systems & MERN apps",
-    "experience" : "ML/AI Intern @ CAASIAC (AI Startup)",
-    "passion"    : ["Generative AI", "Autonomous Systems", "System Design"],
-    "fun_fact"   : "🏆 Represented Pakistan at Act in Space 2026 (ESA & CNES)"
+    "name"        : "Hassan Ali Shah",
+    "role"        : ["Full Stack Developer", "AI/ML Engineer", "CS Student"],
+    "university"  : "Information Technology University (ITU), Lahore",
+    "cgpa"        : 3.02,
+    "currently"   : "Building Agentic AI systems & MERN apps",
+    "experience"  : "ML/AI Intern @ CAASIAC (AI Startup)",
+    "passion"     : ["Generative AI", "Autonomous Systems", "System Design"],
+    "achievement" : "🏆 National Winner + International Rep — Act in Space 2026 (ESA & CNES, France)"
 }
+
+print("Building from bare-metal C++ → cloud-deployed AI systems.")
 ```
 
-I'm an ambitious **CS student** with hands-on industry experience at an **AI startup**, building everything from low-level C++ systems to production-grade full stack apps. I love tackling hard problems — from ML from scratch to agentic AI pipelines.
+> Ambitious CS student with **hands-on industry experience** at an AI startup. I build everything from low-level C++ systems to production-grade full stack apps and agentic AI pipelines. I love hard problems that demand understanding the fundamentals.
 
 ---
 
-## 🛠️ Tech Stack
+## `> tech --stack`
+
+<div align="center">
 
 **Languages**
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-**Web Development (MERN Stack)**
+**Web — MERN Stack**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -55,65 +79,120 @@ I'm an ambitious **CS student** with hands-on industry experience at an **AI sta
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-FF4B4B?style=for-the-badge&logo=anthropic&logoColor=white)
 
----
-
-## 🏆 Achievements
-
-| 🥇 | **National Winner — Act in Space 2026** | Secured 1st place nationally in a prestigious space innovation challenge |
-|---|---|---|
-| 🌍 | **International Rep — Act in Space 2026 (France)** | Represented Pakistan at the global finals organized by **CNES** & **ESA** |
-| 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team in the world's largest global hackathon by NASA |
-| ⚡ | **Participant — Code Rush Hackathon** | Competed in high-intensity algorithmic programming under pressure |
-| ⚡ | **Participant — Softec 26** | Competed in a Full stack web dev category and secured top 5 position |
+</div>
 
 ---
 
-## 📌 Featured Projects
+## `> ls ./achievements`
+
+<div align="center">
+
+| &nbsp; | Achievement | Details |
+|:---:|---|---|
+| 🥇 | **National Winner — Act in Space 2026** | 1st place nationally — prestigious space innovation challenge |
+| 🌍 | **International Rep — Act in Space 2026** | Represented Pakistan at global finals — **CNES & ESA, France** |
+| 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team at the world's largest global hackathon |
+| 🏅 | **Top 5 — Softec 2026** | Full stack web dev category — national level competition |
+| ⚡ | **Code Rush Hackathon** | High-intensity algorithmic programming under pressure |
+
+</div>
+
+---
+
+## `> git log --featured`
+
+<div align="center">
 
 ### 🗄️ [Cost-Based SQL Query Optimizer](https://github.com/Hassan-Ali-17/Cost_Based_Query_Optimizer)
-> Built a full SQL optimizer from scratch in C/C++ — hand-written recursive-descent parser, Selinger DP join ordering, 4 rewrite rules, and per-column statistics. Achieves **100–1000× speedups** over naive query plans. Includes SQL shell, EXPLAIN, catalog cache, executor & benchmark suite.
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-b833ff?style=flat-square)
+![Systems](https://img.shields.io/badge/Systems%20Programming-ff00c8?style=flat-square)
 
-### 💼 [FairGig — Softec 2026 Project](https://github.com/Hassan-Ali-17/Softect26_project)
-> TypeScript-based microservices platform for gig workers to track & verify earnings across platforms. Features analytics dashboards + anomaly detection. **Secured Top 5 at Softect 2026.**
+Full SQL optimizer from scratch — recursive-descent parser, Selinger DP join ordering, 4 rewrite rules, per-column statistics, SQL shell & EXPLAIN.
+**⚡ Achieves 100–1000× speedups over naive query plans.**
+
+---
+
+### 💼 [FairGig — Softec 2026](https://github.com/Hassan-Ali-17/Softect26_project)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-ff00c8?style=flat-square)
+![Analytics](https://img.shields.io/badge/Analytics-b833ff?style=flat-square)
+
+Platform for gig workers to track & verify earnings across platforms, with analytics dashboards and anomaly detection.
+**🏆 Secured Top 5 at Softec 2026.**
+
+---
 
 ### 🍔 [Zaiqa On Wheels](https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website)
-> Full-stack food & grocery ordering platform — Flask backend, HTML/CSS/JS frontend, SQLite database with complete ordering and delivery flow.
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+Full-stack food & grocery ordering platform with complete ordering and delivery flow.
+
+---
 
 ### 🚗 [Rental Car App (C++)](https://github.com/Hassan-Ali-17/rental_car_app_project)
-> Feature-rich car rental management system using raw arrays, dynamic memory, and file I/O — no STL, fully from scratch to demonstrate deep low-level C++ mastery.
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Low Level](https://img.shields.io/badge/Low--Level-b833ff?style=flat-square)
+![File I/O](https://img.shields.io/badge/File%20I%2FO-ff00c8?style=flat-square)
+
+Feature-rich car rental system — raw arrays, dynamic memory, file I/O. **Zero STL, fully from scratch.**
+
+---
 
 ### ♟️ [Scrabble Game (C++ & SFML)](https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble)
-> Full digital Scrabble game on a 15×15 board with proper scoring logic, built using OOP principles and SFML graphics library.
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![SFML](https://img.shields.io/badge/SFML-8CC445?style=flat-square)
+![OOP](https://img.shields.io/badge/OOP-b833ff?style=flat-square)
+
+Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
+
+</div>
 
 ---
 
-## 📊 GitHub Stats
+## `> github --stats`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hassan-Ali-17&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan-Ali-17&layout=compact&theme=radical&hide_border=true" height="165"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Hassan-Ali-17&theme=radical&hide_border=true" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=Hassan-Ali-17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d0015&title_color=ff00c8&icon_color=b833ff&text_color=d8b4fe&ring_color=ff00c8" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan-Ali-17&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0015&title_color=ff00c8&text_color=d8b4fe" height="170"/>
 
----
+<br/>
 
-## 💼 Experience
+<img src="https://streak-stats.demolab.com/?user=Hassan-Ali-17&theme=tokyonight&hide_border=true&background=0d0015&ring=ff00c8&fire=b833ff&currStreakLabel=ff00c8&sideLabels=d8b4fe&dates=9d7cbe"/>
 
-**ML/AI Engineering Intern @ CAASIAC** *(2024 – 2025)*
-- Built and optimized **data preprocessing pipelines** for ML model training
-- Developed and evaluated **ML models** for AI-driven business use cases
-- Collaborated on **Agentic AI** research and implementation strategies
-- Gained hands-on exposure to **Generative AI** tools in a production environment
+<br/>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Hassan-Ali-17&bg_color=0d0015&color=ff00c8&line=b833ff&point=ff00c8&area=true&hide_border=true)
+
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=Profile%20Views&color=blueviolet&style=flat-square" />
-  <br><br>
-  <i>"Building from first principles — from bare-metal C++ to cloud-deployed AI systems."</i>
-</p>
+## `> cat ./experience.log`
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+**ML/AI Engineering Intern @ CAASIAC** &nbsp;·&nbsp; `2024 – 2025`
+
+- ▹ Built and optimized **data preprocessing pipelines** for ML model training
+- ▹ Developed and evaluated **ML models** for AI-driven business use cases
+- ▹ Collaborated on **Agentic AI** research and implementation strategies
+- ▹ Gained hands-on exposure to **Generative AI** tools in a production environment
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=Profile+Views&color=ff00c8&style=flat-square&labelColor=2d0057"/>
+
+<br/><br/>
+
+*"Building from first principles — from bare-metal C++ to cloud-deployed AI systems."*
+
+<br/>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:ff00c8,50:b833ff,100:0d0015&height=120&section=footer)
+
+</div>
