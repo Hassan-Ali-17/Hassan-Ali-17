@@ -25,6 +25,10 @@
 <a href="https://github.com/Hassan-Ali-17">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+&nbsp;
+<a href="https://hassan-ali-17.github.io">
+  <img src="https://img.shields.io/badge/Portfolio-hassan--ali--17.github.io-ff00c8?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=2d0057"/>
+</a>
 
 </div>
 
@@ -39,6 +43,7 @@ hassan = {
     "name"        : "Hassan Ali Shah",
     "role"        : ["Full Stack Developer", "AI/ML Engineer", "CS Student"],
     "university"  : "Information Technology University (ITU), Lahore",
+    "portfolio"   : "https://hassan-ali-17.github.io",
     "currently"   : "Building Agentic AI systems & MERN apps",
     "experience"  : "ML/AI Intern @ CAASIAC (AI Startup)",
     "passion"     : ["Generative AI", "Autonomous Systems", "System Design"],
@@ -187,6 +192,10 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 <img src="https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=Profile+Views&color=ff00c8&style=flat-square&labelColor=2d0057"/>
 
 <br/><br/>
+
+### 🌐 [hassan-ali-17.github.io](https://hassan-ali-17.github.io)
+
+<br/>
 
 *"Building from first principles — from bare-metal C++ to cloud-deployed AI systems."*
 
