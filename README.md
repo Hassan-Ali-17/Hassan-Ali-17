@@ -117,6 +117,15 @@ Full SQL optimizer from scratch — recursive-descent parser, Selinger DP join o
 
 ---
 
+### ⚡ [TaskFlow Pro](https://github.com/Hassan-Ali-17/Task_Flow_Pro)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![AI Powered](https://img.shields.io/badge/AI%20Powered-ff00c8?style=flat-square)
+
+AI-powered universal team task management platform — assign coding, design, HR, marketing & more tasks in one workspace. Built-in compiler, AI feedback engine, and manager dashboard.
+
+---
+
 ### 💼 [FairGig — Softec 2026](https://github.com/Hassan-Ali-17/Softect26_project)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-ff00c8?style=flat-square)
