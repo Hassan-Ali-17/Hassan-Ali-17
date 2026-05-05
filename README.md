@@ -169,10 +169,9 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Hassan-Ali-17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d0015&title_color=ff00c8&icon_color=b833ff&text_color=d8b4fe&ring_color=ff00c88&cache_seconds=1800" height="170"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hassan-Ali-17&theme=tokyonight" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan-Ali-17&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0015&title_color=ff00c8&text_color=d8b4fe8&cache_seconds=1800" height="170"/>
-
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hassan-Ali-17&theme=tokyonight" height="170"/>
 <br/>
 
 <img src="https://streak-stats.demolab.com/?user=Hassan-Ali-17&theme=tokyonight&hide_border=true&background=0d0015&ring=ff00c8&fire=b833ff&currStreakLabel=ff00c8&sideLabels=d8b4fe&dates=9d7cbe"/>
