@@ -154,6 +154,19 @@ Feature-rich car rental system — raw arrays, dynamic memory, file I/O. **Zero 
 
 ---
 
+### 🚢 [Fleet Crisis Command](https://github.com/Hassan-Ali-17/webdev)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
+![AI Powered](https://img.shields.io/badge/AI%20Powered-ff00c8?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+Real-time naval fleet management system — live ship tracking on an interactive map, AI-powered crisis advisor, distress signal handling, and multi-role command dashboard. Built with Next.js frontend, Flask + Socket.IO backend, and Docker Compose.
+⚡ Ships move in real-time with smooth interpolation — deployed on Vercel + Railway.
+
+---
+
 ### ♟️ [Scrabble Game (C++ & SFML)](https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![SFML](https://img.shields.io/badge/SFML-8CC445?style=flat-square)
