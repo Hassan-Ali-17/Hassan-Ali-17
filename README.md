@@ -94,10 +94,12 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 | &nbsp; | Achievement | Details |
 |:---:|---|---|
 | 🥇 | **National Winner — Act in Space 2026** | 1st place nationally — prestigious space innovation challenge |
+| 🥇 | **Innovation Pakistan 2026** | Placed Runner-Up at Innovation Pakistan 2026 recognising Pakistan's most promising tech |
 | 🌍 | **International Rep — Act in Space 2026** | Represented Pakistan at global finals — **CNES & ESA, France** |
 | 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team at the world's largest global hackathon |
 | 🏅 | **Top 5 — Softec 2026** | Full stack web dev category — national level competition |
 | ⚡ | **Code Rush Hackathon** | High-intensity algorithmic programming under pressure |
+| ⚡ | **Softec** |Placed top 10 overall in Web Dev |
 
 </div>
 
@@ -107,12 +109,26 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <div align="center">
 
+### 🗄️ [VORTEX OS — Custom Linux Environment](https://github.com/Hassan-Ali-17/Vortex_OS)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Operating System](https://img.shields.io/badge/Operating%20Systems-2E8B57?style=flat-square)
+![Dev Shell](https://img.shields.io/badge/Shell%20Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Systems](https://img.shields.io/badge/Systems%20Programming-ff00c8?style=flat-square)
+
+A custom Linux-based OS environment built on Ubuntu — featuring a hand-crafted Python shell, 6 live-switchable cyberpunk themes, command chaining, alias engine & persistent history. Evolving across 15 phases toward a fully bootable Linux distro.
+
+**⚡ Delivers ultra-low-latency inference with optimized AI pipelines for real-time decision systems.**
+
+---
+
 ### 🗄️ [Cost-Based SQL Query Optimizer](https://github.com/Hassan-Ali-17/Cost_Based_Query_Optimizer)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/Algorithms-b833ff?style=flat-square)
 ![Systems](https://img.shields.io/badge/Systems%20Programming-ff00c8?style=flat-square)
 
 Full SQL optimizer from scratch — recursive-descent parser, Selinger DP join ordering, 4 rewrite rules, per-column statistics, SQL shell & EXPLAIN.
+
 **⚡ Achieves 100–1000× speedups over naive query plans.**
 
 ---
@@ -132,6 +148,7 @@ AI-powered universal team task management platform — assign coding, design, HR
 ![Analytics](https://img.shields.io/badge/Analytics-b833ff?style=flat-square)
 
 Platform for gig workers to track & verify earnings across platforms, with analytics dashboards and anomaly detection.
+
 **🏆 Secured Top 5 at Softec 2026.**
 
 ---
@@ -163,6 +180,7 @@ Feature-rich car rental system — raw arrays, dynamic memory, file I/O. **Zero 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 Real-time naval fleet management system — live ship tracking on an interactive map, AI-powered crisis advisor, distress signal handling, and multi-role command dashboard. Built with Next.js frontend, Flask + Socket.IO backend, and Docker Compose.
+
 ⚡ Ships move in real-time with smooth interpolation — deployed on Vercel + Railway.
 
 ---
