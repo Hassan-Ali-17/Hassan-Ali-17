@@ -30,6 +30,10 @@
   <img src="https://img.shields.io/badge/Portfolio-hassan--ali--17.github.io-ff00c8?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=2d0057"/>
 </a>
 
+<br/><br/>
+
+> 🖥️ **Want an immersive experience?** Step into my world — **[Explore My 3D Interactive Desk Portfolio →](https://hassan-verse3-d.vercel.app/)**
+
 </div>
 
 ---
@@ -108,6 +112,19 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 ## `> git log --featured`
 
 <div align="center">
+
+### 🌐 [Hassan-Verse — Interactive 3D Desk Portfolio](https://hassan-verse3-d.vercel.app/)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![3D](https://img.shields.io/badge/3D%20Experience-ff00c8?style=flat-square)
+![Interactive](https://img.shields.io/badge/Interactive-b833ff?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+A fully interactive **3D portfolio built around a virtual desk** — explore my workspace in real-time 3D, click objects to discover projects, skills, and more. A one-of-a-kind immersive developer portfolio experience.
+
+**⚡ [Live Experience →](https://hassan-verse3-d.vercel.app/) — Put on headphones, grab a seat, and step into my world.**
+
+---
 
 ### 🗄️ [VORTEX OS — Custom Linux Environment](https://github.com/Hassan-Ali-17/Vortex_OS)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
