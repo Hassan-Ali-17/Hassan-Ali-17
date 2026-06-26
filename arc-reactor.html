@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Arc Reactor — Hassan Ali Shah</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0a0a0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 2rem;
+    background: #0d0008;
+    border: 1px solid #8B0000;
+    border-radius: 16px;
+    box-shadow: 0 0 60px rgba(178,34,34,0.25), 0 0 120px rgba(125,211,252,0.08);
+  }
+  .title {
+    color: #FFD700;
+    font-size: 13px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  canvas { display: block; }
+  .status {
+    margin-top: 1.25rem;
+    color: #7dd3fc;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    min-height: 18px;
+  }
+  .powerbar {
+    margin-top: 0.4rem;
+    color: #FFD700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    min-height: 16px;
+  }
+  .btn-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 1.5rem;
+  }
+  button {
+    background: transparent;
+    border: 1px solid #8B0000;
+    color: #FFD700;
+    font-family: inherit;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+  }
+  button:hover {
+    background: #1a0000;
+    border-color: #FFD700;
+    box-shadow: 0 0 12px rgba(255,215,0,0.3);
+  }
+  button.active {
+    border-color: #FFD700;
+    background: #1a0000;
+    box-shadow: 0 0 16px rgba(255,215,0,0.4);
+  }
+  .sub {
+    margin-top: 1.5rem;
+    color: #8B0000;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">⚡ Arc Reactor — Mark III</div>
+  <canvas id="arc" width="300" height="300"></canvas>
+  <div class="status" id="status">SUIT POWER: 100%</div>
+  <div class="powerbar" id="powerbar">█████████████████████</div>
+  <div class="btn-row">
+    <button id="btn-idle"   onclick="setMode('idle')"   class="active">Idle</button>
+    <button id="btn-charge" onclick="setMode('charge')">Charge</button>
+    <button id="btn-blast"  onclick="setMode('blast')">Blast</button>
+  </div>
+  <div class="sub">Hassan Ali Shah · Stark Industries Protocol</div>
+</div>
+
+<script>
+const canvas = document.getElementById('arc');
+const ctx    = canvas.getContext('2d');
+const W = 300, H = 300, CX = 150, CY = 150;
+
+let t = 0;
+let pulseAmp  = 0.3;
+let rotSpeed  = 0.008;
+let glowColor = '#7dd3fc';
+let coreColor = '#bfefff';
+let triColor  = '#FFD700';
+let blastBurst = 0;
+
+function setMode(m) {
+  ['idle','charge','blast'].forEach(id => {
+    document.getElementById('btn-'+id).classList.remove('active');
+  });
+  document.getElementById('btn-'+m).classList.add('active');
+
+  if (m === 'idle') {
+    pulseAmp = 0.3; rotSpeed = 0.008;
+    glowColor = '#7dd3fc'; coreColor = '#bfefff'; triColor = '#FFD700';
+    document.getElementById('status').style.color = '#7dd3fc';
+    document.getElementById('status').textContent = 'SUIT POWER: 100%';
+    document.getElementById('powerbar').style.color = '#FFD700';
+    document.getElementById('powerbar').textContent = '█████████████████████';
+  } else if (m === 'charge') {
+    pulseAmp = 0.7; rotSpeed = 0.025;
+    glowColor = '#38bdf8'; coreColor = '#e0f7ff'; triColor = '#FFD700';
+    document.getElementById('status').style.color = '#38bdf8';
+    document.getElementById('status').textContent = 'CHARGING REPULSORS...';
+    document.getElementById('powerbar').style.color = '#38bdf8';
+    document.getElementById('powerbar').textContent = '▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓';
+  } else if (m === 'blast') {
+    pulseAmp = 1.2; rotSpeed = 0.06;
+    glowColor = '#ef4444'; coreColor = '#fff7aa'; triColor = '#FFD700';
+    blastBurst = 1.0;
+    document.getElementById('status').style.color = '#ef4444';
+    document.getElementById('status').textContent = 'REPULSOR BLAST ACTIVE';
+    document.getElementById('powerbar').style.color = '#B22222';
+    document.getElementById('powerbar').textContent = '████████████████████▓';
+  }
+}
+
+function h2r(hex) {
+  return `${parseInt(hex.slice(1,3),16)},${parseInt(hex.slice(3,5),16)},${parseInt(hex.slice(5,7),16)}`;
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  t += rotSpeed;
+  if (blastBurst > 0) blastBurst -= 0.025;
+
+  const pulse = 1 + pulseAmp * Math.sin(t * 3.5);
+  const gr = h2r(glowColor);
+
+  /* ── outer ambient glow ── */
+  const og = ctx.createRadialGradient(CX,CY,65,CX,CY,148);
+  og.addColorStop(0, `rgba(${gr},${0.22*pulse})`);
+  og.addColorStop(1, `rgba(${gr},0)`);
+  ctx.beginPath(); ctx.arc(CX,CY,148,0,Math.PI*2);
+  ctx.fillStyle = og; ctx.fill();
+
+  /* ── blast burst ── */
+  if (blastBurst > 0) {
+    const bg2 = ctx.createRadialGradient(CX,CY,55,CX,CY,148*(1.4-blastBurst));
+    bg2.addColorStop(0, `rgba(255,220,80,${blastBurst*0.8})`);
+    bg2.addColorStop(1, `rgba(178,34,34,0)`);
+    ctx.beginPath(); ctx.arc(CX,CY,148*(1.4-blastBurst),0,Math.PI*2);
+    ctx.fillStyle = bg2; ctx.fill();
+  }
+
+  /* ── outer housing ── */
+  ctx.beginPath(); ctx.arc(CX,CY,128,0,Math.PI*2);
+  ctx.strokeStyle = '#1a3a5c'; ctx.lineWidth = 13; ctx.stroke();
+  ctx.beginPath(); ctx.arc(CX,CY,128,0,Math.PI*2);
+  ctx.strokeStyle = `rgba(${gr},${0.55*pulse})`; ctx.lineWidth = 2; ctx.stroke();
+
+  /* ── rotating tick marks ── */
+  for (let i = 0; i < 16; i++) {
+    const a  = t + (i/16)*Math.PI*2;
+    const r1 = 115, r2 = 126;
+    ctx.beginPath();
+    ctx.moveTo(CX+Math.cos(a)*r1, CY+Math.sin(a)*r1);
+    ctx.lineTo(CX+Math.cos(a)*r2, CY+Math.sin(a)*r2);
+    ctx.strokeStyle = `rgba(${gr},${(i%4===0?1:0.45)*pulse})`;
+    ctx.lineWidth   = i%4===0 ? 2.5 : 1;
+    ctx.stroke();
+  }
+
+  /* ── coil ring track ── */
+  ctx.beginPath(); ctx.arc(CX,CY,96,0,Math.PI*2);
+  ctx.strokeStyle = '#0d2a40'; ctx.lineWidth = 12; ctx.stroke();
+
+  /* ── coil segments (counter-rotate) ── */
+  for (let i = 0; i < 10; i++) {
+    const a1 = -t*0.55 + (i/10)*Math.PI*2;
+    const a2 = a1 + 0.22;
+    ctx.beginPath(); ctx.arc(CX,CY,96,a1,a2);
+    ctx.strokeStyle = `rgba(${gr},${0.95*pulse})`; ctx.lineWidth = 7; ctx.stroke();
+    ctx.beginPath(); ctx.arc(CX,CY,96,a1,a2);
+    ctx.strokeStyle = coreColor+'bb'; ctx.lineWidth = 1.5; ctx.stroke();
+  }
+
+  /* ── inner ring ── */
+  ctx.beginPath(); ctx.arc(CX,CY,74,0,Math.PI*2);
+  ctx.strokeStyle = '#0a1e30'; ctx.lineWidth = 4; ctx.stroke();
+  ctx.beginPath(); ctx.arc(CX,CY,74,0,Math.PI*2);
+  ctx.strokeStyle = `rgba(${gr},${0.65*pulse})`; ctx.lineWidth = 1; ctx.stroke();
+
+  /* ── triangular repulsor structure ── */
+  ctx.save(); ctx.translate(CX,CY); ctx.rotate(t*0.75);
+  const tr = h2r(triColor);
+  for (let i = 0; i < 3; i++) {
+    ctx.save(); ctx.rotate((i/3)*Math.PI*2);
+    ctx.beginPath();
+    ctx.moveTo(0, -12); ctx.lineTo(11, -60); ctx.lineTo(-11, -60);
+    ctx.closePath();
+    ctx.fillStyle   = `rgba(${tr},${0.16*pulse})`;
+    ctx.strokeStyle = `rgba(${tr},${0.9*pulse})`;
+    ctx.lineWidth = 1.5;
+    ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, -60, 5.5, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(${tr},${0.95*pulse})`; ctx.fill();
+    ctx.restore();
+  }
+  ctx.restore();
+
+  /* ── inner hex orbs (counter-rotate) ── */
+  ctx.save(); ctx.translate(CX,CY); ctx.rotate(-t*1.1);
+  for (let i = 0; i < 6; i++) {
+    const a = (i/6)*Math.PI*2;
+    ctx.beginPath(); ctx.arc(Math.cos(a)*40, Math.sin(a)*40, 6.5, 0, Math.PI*2);
+    ctx.fillStyle   = `rgba(${gr},${0.75*pulse})`;
+    ctx.strokeStyle = coreColor; ctx.lineWidth = 1;
+    ctx.fill(); ctx.stroke();
+  }
+  ctx.restore();
+
+  /* ── core radial glow ── */
+  const cg = ctx.createRadialGradient(CX,CY,0,CX,CY,30*pulse);
+  cg.addColorStop(0,   '#ffffff');
+  cg.addColorStop(0.3, coreColor);
+  cg.addColorStop(0.8, glowColor+'cc');
+  cg.addColorStop(1,   glowColor+'00');
+  ctx.beginPath(); ctx.arc(CX,CY,30*pulse,0,Math.PI*2);
+  ctx.fillStyle = cg; ctx.fill();
+
+  /* ── core dot ── */
+  ctx.beginPath(); ctx.arc(CX,CY,11,0,Math.PI*2);
+  ctx.fillStyle = '#ffffff'; ctx.fill();
+
+  requestAnimationFrame(draw);
+}
+
+setMode('idle');
+draw();
+</script>
+</body>
+</html>
