@@ -236,7 +236,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hassan-Ali-17&theme=dracula" height="170"/>
 <br/>
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Hassan-Ali-17&hide_border=true&background=000000&ring=00eaff&fire=ff1e1e&currStreakLabel=00eaff&sideLabels=ff1e1e&dates=ffffff"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Hassan-Ali-17&hide_border=true&background=000000&ring=00eaff&fire=ff1e1e&currStreakLabel=00eaff&sideLabels=ff1e1e&dates=ffffff&currStreakNum=ff1e1e&sideNums=ff1e1e"/>
 
 <br/>
 
