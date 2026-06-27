@@ -1,0 +1,164 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<defs>
+  <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#1a0000"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </radialGradient>
+  <radialGradient id="spiderGlow" cx="50%" cy="50%" r="55%">
+    <stop offset="0%" stop-color="#ff2200" stop-opacity="0.4"/>
+    <stop offset="60%" stop-color="#ff0000" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="redGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="circClip"><circle cx="250" cy="250" r="195"/></clipPath>
+</defs>
+
+<rect width="500" height="500" fill="url(#bgGlow)"/>
+
+<!-- halftone dot grid -->
+<g clip-path="url(#circClip)" opacity="0.2" fill="#ff2200">
+  <circle cx="20" cy="20" r="1.3"/><circle cx="40" cy="20" r="1.3"/><circle cx="60" cy="20" r="1.3"/><circle cx="80" cy="20" r="1.3"/><circle cx="100" cy="20" r="1.3"/><circle cx="120" cy="20" r="1.3"/><circle cx="140" cy="20" r="1.3"/><circle cx="160" cy="20" r="1.3"/><circle cx="180" cy="20" r="1.3"/><circle cx="200" cy="20" r="1.3"/><circle cx="220" cy="20" r="1.3"/><circle cx="240" cy="20" r="1.3"/><circle cx="260" cy="20" r="1.3"/><circle cx="280" cy="20" r="1.3"/><circle cx="300" cy="20" r="1.3"/><circle cx="320" cy="20" r="1.3"/><circle cx="340" cy="20" r="1.3"/><circle cx="360" cy="20" r="1.3"/><circle cx="380" cy="20" r="1.3"/><circle cx="400" cy="20" r="1.3"/><circle cx="420" cy="20" r="1.3"/><circle cx="440" cy="20" r="1.3"/><circle cx="460" cy="20" r="1.3"/><circle cx="480" cy="20" r="1.3"/>
+  <circle cx="20" cy="50" r="1.3"/><circle cx="40" cy="50" r="1.3"/><circle cx="60" cy="50" r="1.3"/><circle cx="80" cy="50" r="1.3"/><circle cx="100" cy="50" r="1.3"/><circle cx="120" cy="50" r="1.3"/><circle cx="140" cy="50" r="1.3"/><circle cx="160" cy="50" r="1.3"/><circle cx="180" cy="50" r="1.3"/><circle cx="200" cy="50" r="1.3"/><circle cx="220" cy="50" r="1.3"/><circle cx="240" cy="50" r="1.3"/><circle cx="260" cy="50" r="1.3"/><circle cx="280" cy="50" r="1.3"/><circle cx="300" cy="50" r="1.3"/><circle cx="320" cy="50" r="1.3"/><circle cx="340" cy="50" r="1.3"/><circle cx="360" cy="50" r="1.3"/><circle cx="380" cy="50" r="1.3"/><circle cx="400" cy="50" r="1.3"/><circle cx="420" cy="50" r="1.3"/><circle cx="440" cy="50" r="1.3"/><circle cx="460" cy="50" r="1.3"/><circle cx="480" cy="50" r="1.3"/>
+  <circle cx="20" cy="80" r="1.3"/><circle cx="40" cy="80" r="1.3"/><circle cx="60" cy="80" r="1.3"/><circle cx="80" cy="80" r="1.3"/><circle cx="100" cy="80" r="1.3"/><circle cx="120" cy="80" r="1.3"/><circle cx="140" cy="80" r="1.3"/><circle cx="160" cy="80" r="1.3"/><circle cx="180" cy="80" r="1.3"/><circle cx="200" cy="80" r="1.3"/><circle cx="220" cy="80" r="1.3"/><circle cx="240" cy="80" r="1.3"/><circle cx="260" cy="80" r="1.3"/><circle cx="280" cy="80" r="1.3"/><circle cx="300" cy="80" r="1.3"/><circle cx="320" cy="80" r="1.3"/><circle cx="340" cy="80" r="1.3"/><circle cx="360" cy="80" r="1.3"/><circle cx="380" cy="80" r="1.3"/><circle cx="400" cy="80" r="1.3"/><circle cx="420" cy="80" r="1.3"/><circle cx="440" cy="80" r="1.3"/><circle cx="460" cy="80" r="1.3"/><circle cx="480" cy="80" r="1.3"/>
+  <circle cx="20" cy="110" r="1.3"/><circle cx="40" cy="110" r="1.3"/><circle cx="60" cy="110" r="1.3"/><circle cx="80" cy="110" r="1.3"/><circle cx="100" cy="110" r="1.3"/><circle cx="120" cy="110" r="1.3"/><circle cx="140" cy="110" r="1.3"/><circle cx="160" cy="110" r="1.3"/><circle cx="180" cy="110" r="1.3"/><circle cx="200" cy="110" r="1.3"/><circle cx="220" cy="110" r="1.3"/><circle cx="240" cy="110" r="1.3"/><circle cx="260" cy="110" r="1.3"/><circle cx="280" cy="110" r="1.3"/><circle cx="300" cy="110" r="1.3"/><circle cx="320" cy="110" r="1.3"/><circle cx="340" cy="110" r="1.3"/><circle cx="360" cy="110" r="1.3"/><circle cx="380" cy="110" r="1.3"/><circle cx="400" cy="110" r="1.3"/><circle cx="420" cy="110" r="1.3"/><circle cx="440" cy="110" r="1.3"/><circle cx="460" cy="110" r="1.3"/><circle cx="480" cy="110" r="1.3"/>
+  <circle cx="20" cy="140" r="1.3"/><circle cx="40" cy="140" r="1.3"/><circle cx="60" cy="140" r="1.3"/><circle cx="80" cy="140" r="1.3"/><circle cx="100" cy="140" r="1.3"/><circle cx="120" cy="140" r="1.3"/><circle cx="140" cy="140" r="1.3"/><circle cx="160" cy="140" r="1.3"/><circle cx="180" cy="140" r="1.3"/><circle cx="200" cy="140" r="1.3"/><circle cx="220" cy="140" r="1.3"/><circle cx="240" cy="140" r="1.3"/><circle cx="260" cy="140" r="1.3"/><circle cx="280" cy="140" r="1.3"/><circle cx="300" cy="140" r="1.3"/><circle cx="320" cy="140" r="1.3"/><circle cx="340" cy="140" r="1.3"/><circle cx="360" cy="140" r="1.3"/><circle cx="380" cy="140" r="1.3"/><circle cx="400" cy="140" r="1.3"/><circle cx="420" cy="140" r="1.3"/><circle cx="440" cy="140" r="1.3"/><circle cx="460" cy="140" r="1.3"/><circle cx="480" cy="140" r="1.3"/>
+  <circle cx="20" cy="170" r="1.3"/><circle cx="40" cy="170" r="1.3"/><circle cx="60" cy="170" r="1.3"/><circle cx="80" cy="170" r="1.3"/><circle cx="100" cy="170" r="1.3"/><circle cx="120" cy="170" r="1.3"/><circle cx="140" cy="170" r="1.3"/><circle cx="160" cy="170" r="1.3"/><circle cx="180" cy="170" r="1.3"/><circle cx="200" cy="170" r="1.3"/><circle cx="220" cy="170" r="1.3"/><circle cx="240" cy="170" r="1.3"/><circle cx="260" cy="170" r="1.3"/><circle cx="280" cy="170" r="1.3"/><circle cx="300" cy="170" r="1.3"/><circle cx="320" cy="170" r="1.3"/><circle cx="340" cy="170" r="1.3"/><circle cx="360" cy="170" r="1.3"/><circle cx="380" cy="170" r="1.3"/><circle cx="400" cy="170" r="1.3"/><circle cx="420" cy="170" r="1.3"/><circle cx="440" cy="170" r="1.3"/><circle cx="460" cy="170" r="1.3"/><circle cx="480" cy="170" r="1.3"/>
+  <circle cx="20" cy="200" r="1.3"/><circle cx="40" cy="200" r="1.3"/><circle cx="60" cy="200" r="1.3"/><circle cx="80" cy="200" r="1.3"/><circle cx="100" cy="200" r="1.3"/><circle cx="120" cy="200" r="1.3"/><circle cx="140" cy="200" r="1.3"/><circle cx="160" cy="200" r="1.3"/><circle cx="180" cy="200" r="1.3"/><circle cx="200" cy="200" r="1.3"/><circle cx="220" cy="200" r="1.3"/><circle cx="240" cy="200" r="1.3"/><circle cx="260" cy="200" r="1.3"/><circle cx="280" cy="200" r="1.3"/><circle cx="300" cy="200" r="1.3"/><circle cx="320" cy="200" r="1.3"/><circle cx="340" cy="200" r="1.3"/><circle cx="360" cy="200" r="1.3"/><circle cx="380" cy="200" r="1.3"/><circle cx="400" cy="200" r="1.3"/><circle cx="420" cy="200" r="1.3"/><circle cx="440" cy="200" r="1.3"/><circle cx="460" cy="200" r="1.3"/><circle cx="480" cy="200" r="1.3"/>
+  <circle cx="20" cy="230" r="1.3"/><circle cx="40" cy="230" r="1.3"/><circle cx="60" cy="230" r="1.3"/><circle cx="80" cy="230" r="1.3"/><circle cx="100" cy="230" r="1.3"/><circle cx="120" cy="230" r="1.3"/><circle cx="140" cy="230" r="1.3"/><circle cx="160" cy="230" r="1.3"/><circle cx="180" cy="230" r="1.3"/><circle cx="200" cy="230" r="1.3"/><circle cx="220" cy="230" r="1.3"/><circle cx="240" cy="230" r="1.3"/><circle cx="260" cy="230" r="1.3"/><circle cx="280" cy="230" r="1.3"/><circle cx="300" cy="230" r="1.3"/><circle cx="320" cy="230" r="1.3"/><circle cx="340" cy="230" r="1.3"/><circle cx="360" cy="230" r="1.3"/><circle cx="380" cy="230" r="1.3"/><circle cx="400" cy="230" r="1.3"/><circle cx="420" cy="230" r="1.3"/><circle cx="440" cy="230" r="1.3"/><circle cx="460" cy="230" r="1.3"/><circle cx="480" cy="230" r="1.3"/>
+  <circle cx="20" cy="260" r="1.3"/><circle cx="40" cy="260" r="1.3"/><circle cx="60" cy="260" r="1.3"/><circle cx="80" cy="260" r="1.3"/><circle cx="100" cy="260" r="1.3"/><circle cx="120" cy="260" r="1.3"/><circle cx="140" cy="260" r="1.3"/><circle cx="160" cy="260" r="1.3"/><circle cx="180" cy="260" r="1.3"/><circle cx="200" cy="260" r="1.3"/><circle cx="220" cy="260" r="1.3"/><circle cx="240" cy="260" r="1.3"/><circle cx="260" cy="260" r="1.3"/><circle cx="280" cy="260" r="1.3"/><circle cx="300" cy="260" r="1.3"/><circle cx="320" cy="260" r="1.3"/><circle cx="340" cy="260" r="1.3"/><circle cx="360" cy="260" r="1.3"/><circle cx="380" cy="260" r="1.3"/><circle cx="400" cy="260" r="1.3"/><circle cx="420" cy="260" r="1.3"/><circle cx="440" cy="260" r="1.3"/><circle cx="460" cy="260" r="1.3"/><circle cx="480" cy="260" r="1.3"/>
+  <circle cx="20" cy="290" r="1.3"/><circle cx="40" cy="290" r="1.3"/><circle cx="60" cy="290" r="1.3"/><circle cx="80" cy="290" r="1.3"/><circle cx="100" cy="290" r="1.3"/><circle cx="120" cy="290" r="1.3"/><circle cx="140" cy="290" r="1.3"/><circle cx="160" cy="290" r="1.3"/><circle cx="180" cy="290" r="1.3"/><circle cx="200" cy="290" r="1.3"/><circle cx="220" cy="290" r="1.3"/><circle cx="240" cy="290" r="1.3"/><circle cx="260" cy="290" r="1.3"/><circle cx="280" cy="290" r="1.3"/><circle cx="300" cy="290" r="1.3"/><circle cx="320" cy="290" r="1.3"/><circle cx="340" cy="290" r="1.3"/><circle cx="360" cy="290" r="1.3"/><circle cx="380" cy="290" r="1.3"/><circle cx="400" cy="290" r="1.3"/><circle cx="420" cy="290" r="1.3"/><circle cx="440" cy="290" r="1.3"/><circle cx="460" cy="290" r="1.3"/><circle cx="480" cy="290" r="1.3"/>
+  <circle cx="20" cy="320" r="1.3"/><circle cx="40" cy="320" r="1.3"/><circle cx="60" cy="320" r="1.3"/><circle cx="80" cy="320" r="1.3"/><circle cx="100" cy="320" r="1.3"/><circle cx="120" cy="320" r="1.3"/><circle cx="140" cy="320" r="1.3"/><circle cx="160" cy="320" r="1.3"/><circle cx="180" cy="320" r="1.3"/><circle cx="200" cy="320" r="1.3"/><circle cx="220" cy="320" r="1.3"/><circle cx="240" cy="320" r="1.3"/><circle cx="260" cy="320" r="1.3"/><circle cx="280" cy="320" r="1.3"/><circle cx="300" cy="320" r="1.3"/><circle cx="320" cy="320" r="1.3"/><circle cx="340" cy="320" r="1.3"/><circle cx="360" cy="320" r="1.3"/><circle cx="380" cy="320" r="1.3"/><circle cx="400" cy="320" r="1.3"/><circle cx="420" cy="320" r="1.3"/><circle cx="440" cy="320" r="1.3"/><circle cx="460" cy="320" r="1.3"/><circle cx="480" cy="320" r="1.3"/>
+  <circle cx="20" cy="350" r="1.3"/><circle cx="40" cy="350" r="1.3"/><circle cx="60" cy="350" r="1.3"/><circle cx="80" cy="350" r="1.3"/><circle cx="100" cy="350" r="1.3"/><circle cx="120" cy="350" r="1.3"/><circle cx="140" cy="350" r="1.3"/><circle cx="160" cy="350" r="1.3"/><circle cx="180" cy="350" r="1.3"/><circle cx="200" cy="350" r="1.3"/><circle cx="220" cy="350" r="1.3"/><circle cx="240" cy="350" r="1.3"/><circle cx="260" cy="350" r="1.3"/><circle cx="280" cy="350" r="1.3"/><circle cx="300" cy="350" r="1.3"/><circle cx="320" cy="350" r="1.3"/><circle cx="340" cy="350" r="1.3"/><circle cx="360" cy="350" r="1.3"/><circle cx="380" cy="350" r="1.3"/><circle cx="400" cy="350" r="1.3"/><circle cx="420" cy="350" r="1.3"/><circle cx="440" cy="350" r="1.3"/><circle cx="460" cy="350" r="1.3"/><circle cx="480" cy="350" r="1.3"/>
+  <circle cx="20" cy="380" r="1.3"/><circle cx="40" cy="380" r="1.3"/><circle cx="60" cy="380" r="1.3"/><circle cx="80" cy="380" r="1.3"/><circle cx="100" cy="380" r="1.3"/><circle cx="120" cy="380" r="1.3"/><circle cx="140" cy="380" r="1.3"/><circle cx="160" cy="380" r="1.3"/><circle cx="180" cy="380" r="1.3"/><circle cx="200" cy="380" r="1.3"/><circle cx="220" cy="380" r="1.3"/><circle cx="240" cy="380" r="1.3"/><circle cx="260" cy="380" r="1.3"/><circle cx="280" cy="380" r="1.3"/><circle cx="300" cy="380" r="1.3"/><circle cx="320" cy="380" r="1.3"/><circle cx="340" cy="380" r="1.3"/><circle cx="360" cy="380" r="1.3"/><circle cx="380" cy="380" r="1.3"/><circle cx="400" cy="380" r="1.3"/><circle cx="420" cy="380" r="1.3"/><circle cx="440" cy="380" r="1.3"/><circle cx="460" cy="380" r="1.3"/><circle cx="480" cy="380" r="1.3"/>
+  <circle cx="20" cy="410" r="1.3"/><circle cx="40" cy="410" r="1.3"/><circle cx="60" cy="410" r="1.3"/><circle cx="80" cy="410" r="1.3"/><circle cx="100" cy="410" r="1.3"/><circle cx="120" cy="410" r="1.3"/><circle cx="140" cy="410" r="1.3"/><circle cx="160" cy="410" r="1.3"/><circle cx="180" cy="410" r="1.3"/><circle cx="200" cy="410" r="1.3"/><circle cx="220" cy="410" r="1.3"/><circle cx="240" cy="410" r="1.3"/><circle cx="260" cy="410" r="1.3"/><circle cx="280" cy="410" r="1.3"/><circle cx="300" cy="410" r="1.3"/><circle cx="320" cy="410" r="1.3"/><circle cx="340" cy="410" r="1.3"/><circle cx="360" cy="410" r="1.3"/><circle cx="380" cy="410" r="1.3"/><circle cx="400" cy="410" r="1.3"/><circle cx="420" cy="410" r="1.3"/><circle cx="440" cy="410" r="1.3"/><circle cx="460" cy="410" r="1.3"/><circle cx="480" cy="410" r="1.3"/>
+  <circle cx="20" cy="440" r="1.3"/><circle cx="40" cy="440" r="1.3"/><circle cx="60" cy="440" r="1.3"/><circle cx="80" cy="440" r="1.3"/><circle cx="100" cy="440" r="1.3"/><circle cx="120" cy="440" r="1.3"/><circle cx="140" cy="440" r="1.3"/><circle cx="160" cy="440" r="1.3"/><circle cx="180" cy="440" r="1.3"/><circle cx="200" cy="440" r="1.3"/><circle cx="220" cy="440" r="1.3"/><circle cx="240" cy="440" r="1.3"/><circle cx="260" cy="440" r="1.3"/><circle cx="280" cy="440" r="1.3"/><circle cx="300" cy="440" r="1.3"/><circle cx="320" cy="440" r="1.3"/><circle cx="340" cy="440" r="1.3"/><circle cx="360" cy="440" r="1.3"/><circle cx="380" cy="440" r="1.3"/><circle cx="400" cy="440" r="1.3"/><circle cx="420" cy="440" r="1.3"/><circle cx="440" cy="440" r="1.3"/><circle cx="460" cy="440" r="1.3"/><circle cx="480" cy="440" r="1.3"/>
+  <circle cx="20" cy="470" r="1.3"/><circle cx="40" cy="470" r="1.3"/><circle cx="60" cy="470" r="1.3"/><circle cx="80" cy="470" r="1.3"/><circle cx="100" cy="470" r="1.3"/><circle cx="120" cy="470" r="1.3"/><circle cx="140" cy="470" r="1.3"/><circle cx="160" cy="470" r="1.3"/><circle cx="180" cy="470" r="1.3"/><circle cx="200" cy="470" r="1.3"/><circle cx="220" cy="470" r="1.3"/><circle cx="240" cy="470" r="1.3"/><circle cx="260" cy="470" r="1.3"/><circle cx="280" cy="470" r="1.3"/><circle cx="300" cy="470" r="1.3"/><circle cx="320" cy="470" r="1.3"/><circle cx="340" cy="470" r="1.3"/><circle cx="360" cy="470" r="1.3"/><circle cx="380" cy="470" r="1.3"/><circle cx="400" cy="470" r="1.3"/><circle cx="420" cy="470" r="1.3"/><circle cx="440" cy="470" r="1.3"/><circle cx="460" cy="470" r="1.3"/><circle cx="480" cy="470" r="1.3"/>
+</g>
+
+<!-- glow aura -->
+<circle cx="250" cy="250" r="180" fill="url(#spiderGlow)">
+  <animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+
+<!-- outer ink ring with paint breaks -->
+<circle cx="250" cy="250" r="188" fill="none" stroke="#cc0000" stroke-width="14" opacity="0.95" filter="url(#redGlow)"/>
+<circle cx="250" cy="250" r="188" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="12 340" stroke-dashoffset="60" opacity="1"/>
+<circle cx="250" cy="250" r="188" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="8 344" stroke-dashoffset="200" opacity="1"/>
+<circle cx="250" cy="250" r="188" fill="none" stroke="#000" stroke-width="18" stroke-dasharray="5 347" stroke-dashoffset="310" opacity="1"/>
+<!-- inner ring pulse -->
+<circle cx="250" cy="250" r="178" fill="none" stroke="#ff3300" stroke-width="2" opacity="0.5" stroke-dasharray="3 8">
+  <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="-360 250 250" dur="20s" repeatCount="indefinite"/>
+</circle>
+
+<!-- SPIDER LEGS -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- right upper 4 legs -->
+  <path d="M268,228 L326,186 L378,166" stroke="#000" stroke-width="20"/>
+  <path d="M268,228 L326,186 L378,166" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M272,248 L338,232 L392,222" stroke="#000" stroke-width="20"/>
+  <path d="M272,248 L338,232 L392,222" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M272,272 L336,284 L388,302" stroke="#000" stroke-width="20"/>
+  <path d="M272,272 L336,284 L388,302" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M264,294 L310,330 L352,374" stroke="#000" stroke-width="18"/>
+  <path d="M264,294 L310,330 L352,374" stroke="#cc0000" stroke-width="4.5" opacity="0.95"/>
+  <!-- left upper 4 legs -->
+  <path d="M232,226 L172,182 L118,162" stroke="#000" stroke-width="20"/>
+  <path d="M232,226 L172,182 L118,162" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M228,247 L162,230 L106,220" stroke="#000" stroke-width="20"/>
+  <path d="M228,247 L162,230 L106,220" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M228,271 L164,286 L110,306" stroke="#000" stroke-width="20"/>
+  <path d="M228,271 L164,286 L110,306" stroke="#cc0000" stroke-width="5" opacity="0.95"/>
+  <path d="M236,293 L196,330 L160,372" stroke="#000" stroke-width="18"/>
+  <path d="M236,293 L196,330 L160,372" stroke="#cc0000" stroke-width="4.5" opacity="0.95"/>
+</g>
+
+<!-- BODY abdomen -->
+<polygon points="250,196 276,220 280,280 264,336 250,356 236,336 220,280 224,220" fill="#0a0000" stroke="#cc0000" stroke-width="4.5"/>
+<polygon points="250,196 276,220 280,280 264,336 250,356 236,336 220,280 224,220" fill="none" stroke="#00eaff" stroke-width="1.5" opacity="0.5" transform="translate(2,-2)"/>
+<!-- cephalothorax -->
+<polygon points="250,160 272,176 270,202 250,212 230,202 228,176" fill="#0a0000" stroke="#cc0000" stroke-width="4"/>
+
+<!-- web glyph on abdomen -->
+<g stroke="#1a0808" stroke-width="1.5" opacity="0.55">
+  <line x1="250" y1="212" x2="250" y2="350"/>
+  <line x1="223" y1="280" x2="277" y2="280"/>
+  <line x1="230" y1="230" x2="270" y2="330"/>
+  <line x1="270" y1="230" x2="230" y2="330"/>
+</g>
+
+<!-- eyes -->
+<g fill="#00eaff" filter="url(#cyanGlow)">
+  <circle cx="237" cy="172" r="5.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="247" cy="168" r="6.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle cx="259" cy="168" r="6.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="269" cy="172" r="5.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+</g>
+<g fill="#ff2200">
+  <circle cx="243" cy="182" r="3.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="257" cy="182" r="3.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.5s" begin="0.3s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- GLITCH: chromatic aberration cyan offset -->
+<g opacity="0">
+  <g transform="translate(4,0)" opacity="0.75">
+    <polygon points="250,196 276,220 280,280 264,336 250,356 236,336 220,280 224,220" fill="none" stroke="#00eaff" stroke-width="3"/>
+    <polygon points="250,160 272,176 270,202 250,212 230,202 228,176" fill="none" stroke="#00eaff" stroke-width="3"/>
+  </g>
+  <animate attributeName="opacity" values="0;0;0;1;0;0;0;0;0" keyTimes="0;0.1;0.2;0.21;0.24;0.3;0.6;0.9;1" dur="3.7s" repeatCount="indefinite"/>
+</g>
+<!-- GLITCH: red offset -->
+<g opacity="0">
+  <g transform="translate(-3,2)" opacity="0.6">
+    <polygon points="250,196 276,220 280,280 264,336 250,356 236,336 220,280 224,220" fill="none" stroke="#ff0000" stroke-width="3"/>
+  </g>
+  <animate attributeName="opacity" values="0;0;0;0;1;0;0;0;0" keyTimes="0;0.1;0.2;0.21;0.22;0.26;0.6;0.9;1" dur="3.7s" repeatCount="indefinite"/>
+</g>
+
+<!-- glitch scan lines -->
+<g clip-path="url(#circClip)">
+  <rect x="55" y="100" width="400" height="4" fill="#00eaff" opacity="0">
+    <animate attributeName="y" values="100;400;100" dur="3.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0.45;0;0;0;0;0.35;0" keyTimes="0;0.08;0.2;0.21;0.25;0.5;0.7;0.85;0.86;1" dur="3.7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="55" y="200" width="400" height="2" fill="#ff0000" opacity="0">
+    <animate attributeName="y" values="200;80;350" dur="2.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.38;0;0;0;0.3;0;0" keyTimes="0;0.3;0.31;0.36;0.55;0.7;0.71;0.76;1" dur="2.9s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- glitch cracks -->
+<g stroke="#fff" stroke-width="1.5" opacity="0">
+  <path d="M232,240 L244,264 L236,285 L248,316">
+    <animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.38;0.4;0.45;1" dur="4.1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M266,234 L256,256 L268,274">
+    <animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.58;0.6;0.65;1" dur="3.3s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- bio-electric pulse dots -->
+<circle cx="0" cy="0" r="3.5" fill="#00eaff" opacity="0.9">
+  <animateMotion path="M268,228 L326,186 L378,166 L268,228" dur="1.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="0" cy="0" r="3.5" fill="#ff2200" opacity="0.9">
+  <animateMotion path="M228,247 L162,230 L106,220 L228,247" dur="2.1s" begin="0.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="2.1s" begin="0.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="0" cy="0" r="3.5" fill="#00eaff" opacity="0.9">
+  <animateMotion path="M264,294 L310,330 L352,374 L264,294" dur="1.6s" begin="1s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="1.6s" begin="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- paint drip at bottom -->
+<path d="M250,438 L252,452 L248,460 L251,474" fill="none" stroke="#cc0000" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+<path d="M278,432 L280,442 L277,448" fill="none" stroke="#cc0000" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+<path d="M222,432 L220,446 L223,454" fill="none" stroke="#cc0000" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

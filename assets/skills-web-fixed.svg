@@ -1,0 +1,187 @@
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" width="900" height="900">
+  <defs>
+    <radialGradient id="bg3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#080010"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L24,0 L24,24" fill="none" stroke="#1b1f3b" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <radialGradient id="sweepG" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#00eaff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00eaff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="wc"><circle cx="450" cy="450" r="310"/></clipPath>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bg3)"/>
+  <g clip-path="url(#wc)"><rect width="900" height="900" fill="url(#grid2)"/></g>
+
+  <!-- outer HUD rings -->
+  <circle cx="450" cy="450" r="314" fill="none" stroke="#ff1e1e" stroke-width="1.4" stroke-dasharray="2 6" opacity="0.55"/>
+  <circle cx="450" cy="450" r="324" fill="none" stroke="#00eaff" stroke-width="1" stroke-dasharray="22 4" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="0 450 450" to="360 450 450" dur="14s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- radar sweep -->
+  <g clip-path="url(#wc)">
+    <path d="M450,450 L450,140 A310,310 0 0 1 659,231 Z" fill="url(#sweepG)">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 450" to="360 450 450" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- web rings -->
+  <g stroke="#2a2f4f" stroke-width="1" fill="none" opacity="0.9">
+    <polygon points="450,358 514,385 540,450 514,515 450,542 386,515 360,450 386,385"/>
+    <polygon points="450,262 562,307 607,450 562,593 450,638 338,593 293,450 338,307"/>
+    <polygon points="450,166 610,229 674,450 610,671 450,734 290,671 226,450 290,229"/>
+  </g>
+
+  <!-- 10 spokes -->
+  <g stroke="#3a3f63" stroke-width="1.2" opacity="0.95">
+    <!-- top 12 o'clock -->
+    <line x1="450" y1="450" x2="450" y2="140"/>
+    <!-- top-right ~1:12 -->
+    <line x1="450" y1="450" x2="646" y2="196"/>
+    <!-- right ~2:24 -->
+    <line x1="450" y1="450" x2="757" y2="355"/>
+    <!-- right ~3:36 -->
+    <line x1="450" y1="450" x2="757" y2="545"/>
+    <!-- bottom-right ~4:48 -->
+    <line x1="450" y1="450" x2="646" y2="704"/>
+    <!-- bottom 6 o'clock -->
+    <line x1="450" y1="450" x2="450" y2="760"/>
+    <!-- bottom-left ~7:12 -->
+    <line x1="450" y1="450" x2="254" y2="704"/>
+    <!-- left ~8:24 -->
+    <line x1="450" y1="450" x2="143" y2="545"/>
+    <!-- left ~9:36 -->
+    <line x1="450" y1="450" x2="143" y2="355"/>
+    <!-- top-left ~10:48 -->
+    <line x1="450" y1="450" x2="254" y2="196"/>
+  </g>
+
+  <!-- pulse diamonds -->
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#00eaff">
+    <animateMotion path="M450,450 L450,140 L450,450" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#ff1e1e">
+    <animateMotion path="M450,450 L646,196 L450,450" dur="3.4s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#00eaff">
+    <animateMotion path="M450,450 L757,355 L450,450" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#ff1e1e">
+    <animateMotion path="M450,450 L757,545 L450,450" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#00eaff">
+    <animateMotion path="M450,450 L646,704 L450,450" dur="3.1s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#ff1e1e">
+    <animateMotion path="M450,450 L450,760 L450,450" dur="3.3s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#00eaff">
+    <animateMotion path="M450,450 L254,704 L450,450" dur="2.9s" begin="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#ff1e1e">
+    <animateMotion path="M450,450 L143,545 L450,450" dur="3.5s" begin="2.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#00eaff">
+    <animateMotion path="M450,450 L143,355 L450,450" dur="3.2s" begin="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="#ff1e1e">
+    <animateMotion path="M450,450 L254,196 L450,450" dur="2.7s" begin="2.7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- center hex -->
+  <polygon points="450,430 469,441 469,462 450,473 431,462 431,441" fill="#000" stroke="#ff1e1e" stroke-width="2">
+    <animateTransform attributeName="transform" type="rotate" from="0 450 450" to="360 450 450" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+  <circle cx="450" cy="450" r="4" fill="#00eaff">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================== SKILL NODES ===================== -->
+  <!-- Each node: hex + label above/below/beside with clear spacing -->
+
+  <!-- NODE 1: C++ — top (450, 140) label ABOVE -->
+  <g>
+    <polygon points="450,120 470,132 470,154 450,166 430,154 430,132" fill="#050505" stroke="#ff1e1e" stroke-width="2.2"/>
+    <text x="450" y="149" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" fill="#ff1e1e" font-weight="bold">C++</text>
+    <text x="450" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ LANG ]</text>
+    <text x="450" y="93"  text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#aaaacc">C++</text>
+  </g>
+
+  <!-- NODE 2: Python — top-right (646, 196) label to RIGHT -->
+  <g>
+    <polygon points="646,175 667,187 667,211 646,223 625,211 625,187" fill="#050505" stroke="#00eaff" stroke-width="2.2"/>
+    <text x="646" y="204" text-anchor="middle" font-family="'Courier New',monospace" font-size="14" fill="#00eaff" font-weight="bold">Py</text>
+    <text x="680" y="198" text-anchor="start" font-family="'Courier New',monospace" font-size="14" fill="#00eaff">Python</text>
+    <text x="680" y="184" text-anchor="start" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ LANG ]</text>
+  </g>
+
+  <!-- NODE 3: JavaScript — right-upper (757, 355) label to RIGHT -->
+  <g>
+    <polygon points="757,333 778,345 778,369 757,381 736,369 736,345" fill="#050505" stroke="#ff1e1e" stroke-width="2.2"/>
+    <text x="757" y="362" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#ff1e1e" font-weight="bold">JS</text>
+    <text x="792" y="363" text-anchor="start" font-family="'Courier New',monospace" font-size="14" fill="#ff1e1e">JavaScript</text>
+    <text x="792" y="349" text-anchor="start" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ LANG ]</text>
+  </g>
+
+  <!-- NODE 4: Java — right-lower (757, 545) label to RIGHT -->
+  <g>
+    <polygon points="757,523 778,535 778,559 757,571 736,559 736,535" fill="#050505" stroke="#00eaff" stroke-width="2.5"/>
+    <text x="757" y="552" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#00eaff" font-weight="bold">☕</text>
+    <text x="792" y="553" text-anchor="start" font-family="'Courier New',monospace" font-size="14" fill="#00eaff">Java</text>
+    <text x="792" y="539" text-anchor="start" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ LANG ]</text>
+  </g>
+
+  <!-- NODE 5: TypeScript — bottom-right (646, 704) label to RIGHT -->
+  <g>
+    <polygon points="646,682 667,694 667,718 646,730 625,718 625,694" fill="#050505" stroke="#ff1e1e" stroke-width="2.2"/>
+    <text x="646" y="711" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#ff1e1e" font-weight="bold">TS</text>
+    <text x="680" y="712" text-anchor="start" font-family="'Courier New',monospace" font-size="14" fill="#ff1e1e">TypeScript</text>
+    <text x="680" y="698" text-anchor="start" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ LANG ]</text>
+  </g>
+
+  <!-- NODE 6: React — bottom (450, 760) label BELOW -->
+  <g>
+    <polygon points="450,740 470,752 470,774 450,786 430,774 430,752" fill="#050505" stroke="#00eaff" stroke-width="2.2"/>
+    <text x="450" y="768" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" fill="#00eaff" font-weight="bold">⚛</text>
+    <text x="450" y="802" text-anchor="middle" font-family="'Courier New',monospace" font-size="14" fill="#00eaff">React</text>
+    <text x="450" y="818" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ WEB ]</text>
+  </g>
+
+  <!-- NODE 7: Node.js — bottom-left (254, 704) label to LEFT -->
+  <g>
+    <polygon points="254,682 275,694 275,718 254,730 233,718 233,694" fill="#050505" stroke="#ff1e1e" stroke-width="2.2"/>
+    <text x="254" y="711" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#ff1e1e" font-weight="bold">⬡</text>
+    <text x="218" y="712" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#ff1e1e">Node.js</text>
+    <text x="218" y="698" text-anchor="end" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ WEB ]</text>
+  </g>
+
+  <!-- NODE 8: MongoDB — left-lower (143, 545) label to LEFT -->
+  <g>
+    <polygon points="143,523 164,535 164,559 143,571 122,559 122,535" fill="#050505" stroke="#00eaff" stroke-width="2.2"/>
+    <text x="143" y="552" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00eaff" font-weight="bold">DB</text>
+    <text x="108" y="553" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#00eaff">MongoDB</text>
+    <text x="108" y="539" text-anchor="end" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ DB ]</text>
+  </g>
+
+  <!-- NODE 9: SQL — left-upper (143, 355) label to LEFT -->
+  <g>
+    <polygon points="143,333 164,345 164,369 143,381 122,369 122,345" fill="#050505" stroke="#ff1e1e" stroke-width="2.5"/>
+    <text x="143" y="362" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#ff1e1e" font-weight="bold">SQL</text>
+    <text x="108" y="363" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#ff1e1e">SQL / DB</text>
+    <text x="108" y="349" text-anchor="end" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ DB ]</text>
+  </g>
+
+  <!-- NODE 10: AI/ML — top-left (254, 196) label to LEFT -->
+  <g>
+    <polygon points="254,175 275,187 275,211 254,223 233,211 233,187" fill="#050505" stroke="#00eaff" stroke-width="2.5"/>
+    <text x="254" y="204" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00eaff" font-weight="bold">AI</text>
+    <text x="218" y="198" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#00eaff">AI / ML</text>
+    <text x="218" y="184" text-anchor="end" font-family="'Courier New',monospace" font-size="11" fill="#5b6088">[ CORE ]</text>
+  </g>
+
+</svg>
