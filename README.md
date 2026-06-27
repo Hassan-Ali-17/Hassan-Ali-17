@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-header.svg" width="100%"/>
 
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-emblem.svg" width="120"/>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF1E1E&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%F0%9F%95%B8%EF%B8%8F;AI+%2F+ML+Engineer+%F0%9F%A4%96;Agentic+AI+Builder+%F0%9F%A7%A0;National+Winner+%E2%80%94+Act+in+Space+2026+%F0%9F%8F%86;CS+Student+%40+ITU+Lahore+%F0%9F%8E%93)](https://github.com/Hassan-Ali-17)
 
 <br/>
@@ -86,6 +88,18 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 ![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=00eaff)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-000000?style=for-the-badge&logo=openai&logoColor=ff1e1e)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logo=anthropic&logoColor=00eaff)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+
+## `> spider_sense.scan(skills)`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/skills-web.svg" width="420"/>
+
+<sub>🕸️ every strand wired straight to the core — pull one and the whole web feels it</sub>
 
 </div>
 
