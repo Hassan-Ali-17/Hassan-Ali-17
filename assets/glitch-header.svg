@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff1e1e"/>
+      <stop offset="50%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#00eaff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base background -->
+  <rect width="1200" height="280" fill="url(#bgGrad)"/>
+
+  <!-- top/bottom edge glow bars -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#edgeGrad)"/>
+  <rect x="0" y="276" width="1200" height="4" fill="url(#edgeGrad)"/>
+
+  <!-- faint web lines, subtly shifting -->
+  <g stroke="#1b1f3b" stroke-width="1.2" opacity="0.55" fill="none">
+    <path d="M0,280 L300,0">
+      <animate attributeName="opacity" values="0.55;0.2;0.55" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,180 L500,0"/>
+    <path d="M1200,280 L900,0">
+      <animate attributeName="opacity" values="0.55;0.2;0.55" dur="4.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200,160 L700,0"/>
+    <path d="M0,280 L1200,260"/>
+    <path d="M0,40 L1200,60">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- moving scanline -->
+  <rect x="0" y="0" width="1200" height="3" fill="#00eaff" opacity="0.25">
+    <animate attributeName="y" values="0;277;0" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- random glitch slice bars -->
+  <rect x="80" y="64" width="220" height="6" fill="#ff1e1e" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;0.30;0.32;0.36;0.38;1" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="860" y="210" width="260" height="6" fill="#00eaff" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;0.55;0.57;0.61;0.63;1" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="40" y="220" width="160" height="5" fill="#00eaff" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.7;0.72;0.76;1" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="950" y="50" width="180" height="5" fill="#ff1e1e" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.18;0.2;0.24;1" dur="3.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- RGB split glitch title -->
+  <g font-family="'Courier New', monospace" font-weight="bold" text-anchor="middle">
+    <text x="600" y="135" font-size="58" fill="#ff1e1e" opacity="0.75">
+      HASSAN ALI SHAH
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -3,1; 2,-1; -2,0; 3,1; 0,0"
+        keyTimes="0;0.2;0.4;0.6;0.8;1" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="135" font-size="58" fill="#00eaff" opacity="0.75">
+      HASSAN ALI SHAH
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 3,-1; -2,1; 2,0; -3,-1; 0,0"
+        keyTimes="0;0.2;0.4;0.6;0.8;1" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="135" font-size="58" fill="#ffffff">
+      HASSAN ALI SHAH
+    </text>
+  </g>
+
+  <!-- subtitle, flickering like a damaged display -->
+  <text x="600" y="185" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="20" fill="#00eaff">
+    Full Stack Dev &#8226; AI/ML Engineer &#8226; CS @ ITU Lahore
+    <animate attributeName="opacity" values="1;1;0.25;1;1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- small corner tag -->
+  <text x="600" y="215" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="13" fill="#ff1e1e" opacity="0.85">
+    [ SYSTEM ONLINE — BUILDING IN THE SPIDER-VERSE ]
+  </text>
+</svg>
