@@ -105,24 +105,6 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
 
-## `> ls ./achievements --unlocked`
-
-<div align="center">
-
-| &nbsp; | Achievement | Details |
-|:---:|---|---|
-| 🥇 | **National Winner — Act in Space 2026** | 1st place nationally — prestigious space innovation challenge |
-| 🥇 | **Innovation Pakistan 2026** | Placed Runner-Up at Innovation Pakistan 2026 recognising Pakistan's most promising tech |
-| 🌍 | **International Rep — Act in Space 2026** | Represented Pakistan at global finals — **CNES & ESA, France** |
-| 🚀 | **Team Lead — NASA Space Apps Challenge** | Led a team at the world's largest global hackathon |
-| 🏅 | **Top 5 — Softec 2026** | Full stack web dev category — national level competition |
-| ⚡ | **Code Rush Hackathon** | High-intensity algorithmic programming under pressure |
-| ⚡ | **Softec** | Placed top 10 overall in Web Dev |
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
-
 ## `> git log --featured`
 
 <div align="center">
