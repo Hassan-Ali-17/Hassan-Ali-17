@@ -51,7 +51,7 @@ hassan = {
     "university"  : "Information Technology University (ITU), Lahore",
     "portfolio"   : "https://hassan-ali-17.github.io",
     "currently"   : "Building Agentic AI systems & MERN apps",
-    "experience"  : "ML/AI Intern @ CAASIAC (AI Startup)",
+    "experience"  : "ML/AI Intern @ CAASIAC (2025)", "AI/ML Intern @ NeuroFive"
     "passion"     : ["Generative AI", "Autonomous Systems", "System Design"],
     "achievement" : "🏆 National Winner + International Rep — Act in Space 2026 (ESA & CNES, France)"
 }
@@ -68,24 +68,32 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 <div align="center">
 
 **Languages**
-
 ![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00eaff)
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff1e1e)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00eaff)
 ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=ff1e1e)
-![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=00eaff)
+![Dart](https://img.shields.io/badge/Dart-000000?style=for-the-badge&logo=dart&logoColor=00eaff)
+![Kotlin](https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=ff1e1e)
 
 **Web — MERN Stack**
-
 ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00eaff)
 ![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=ff1e1e)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=00eaff)
-![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=ff1e1e)
 ![REST API](https://img.shields.io/badge/REST%20APIs-000000?style=for-the-badge&logo=postman&logoColor=00eaff)
 
-**AI / ML**
+**Mobile & Cross-Platform**
+![Flutter](https://img.shields.io/badge/Flutter-000000?style=for-the-badge&logo=flutter&logoColor=00eaff)
+![Firebase](https://img.shields.io/badge/Firebase-000000?style=for-the-badge&logo=firebase&logoColor=ff1e1e)
 
-![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=00eaff)
+**Databases & Cloud**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00eaff)
+![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=ff1e1e)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00eaff)
+![AWS](https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonaws&logoColor=00eaff)
+
+**AI / ML**
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=ff1e1e)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=00eaff)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-000000?style=for-the-badge&logo=openai&logoColor=ff1e1e)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logo=anthropic&logoColor=00eaff)
 
