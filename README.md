@@ -28,6 +28,10 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/>
 </a>
 &nbsp;
+<a href="https://discord.com/users/1192698948914249819">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000"/>
+</a>
+&nbsp;
 <a href="https://hassan-ali-17.github.io">
   <img src="https://img.shields.io/badge/Portfolio-hassan--ali--17.github.io-00eaff?style=for-the-badge&logo=githubpages&logoColor=000000&labelColor=000000"/>
 </a>
