@@ -234,7 +234,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <br/>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Hassan-Ali-17&bg_color=000000&color=00eaff&line=ff1e1e&point=ffffff&area=true&hide_border=true)
+![Activity Graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=Hassan-Ali-17&bg_color=000000&color=00eaff&line=ff1e1e&point=ffffff&area=true&hide_border=true)
 
 </div>
 
