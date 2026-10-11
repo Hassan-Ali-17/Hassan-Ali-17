@@ -253,7 +253,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=Profile+Views&color=00eaff&style=flat-square&labelColor=000000"/>
+![Profile Views](https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=SPIDEY+VISITORS&color=ff304f&style=for-the-badge&labelColor=0d0d0d)
 
 <br/><br/>
 
