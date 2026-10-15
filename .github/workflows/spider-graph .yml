@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths-ignore:
       - "assets/spider-contrib.svg"
+      - "assets/spider-sense.svg"
   repository_dispatch:
     types: [update-spider-graph]   # sent by your other repos (see notify-profile.yml)
   schedule:
@@ -33,5 +34,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/spider-contrib.svg
+          git add assets/spider-contrib.svg assets/spider-sense.svg
           git diff --staged --quiet || (git commit -m "chore: update spider contribution graph" && git push)

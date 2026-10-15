@@ -4,11 +4,13 @@
 Usage:
   GITHUB_TOKEN=... GITHUB_USER=Hassan-Ali-17 python scripts/generate_spider_graph.py
   python scripts/generate_spider_graph.py --demo      # fake data, for testing
-Output: assets/spider-contrib.svg
+Output: assets/spider-contrib.svg + assets/spider-sense.svg
 """
 import json, os, random, sys, urllib.request
+from datetime import date
 
 OUT = "assets/spider-contrib.svg"
+SENSE_OUT = "assets/spider-sense.svg"
 CELL, GAP = 11, 4
 STEP = CELL + GAP
 PAD_L, PAD_T = 24, 34
@@ -26,13 +28,18 @@ def fetch(user, token):
     data = json.load(urllib.request.urlopen(req))
     cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     weeks = [[d["contributionCount"] for d in w["contributionDays"]] for w in cal["weeks"]]
-    return weeks, cal["totalContributions"]
+    last = None
+    for w in cal["weeks"]:
+        for d in w["contributionDays"]:
+            if d["contributionCount"] > 0:
+                last = d["date"]
+    return weeks, cal["totalContributions"], last
 
 
 def demo():
     random.seed(4)
     weeks = [[random.choice([0, 0, 0, 1, 2, 4, 7, 12]) for _ in range(7)] for _ in range(53)]
-    return weeks, sum(map(sum, weeks))
+    return weeks, sum(map(sum, weeks)), date.today().isoformat()
 
 
 def level(n, mx):
@@ -100,14 +107,43 @@ def build(weeks, total):
 </svg>"""
 
 
+def build_sense(last):
+    ago = (date.today() - date.fromisoformat(last)).days if last else None
+    active = ago is not None and ago <= 1
+    when = "no recent activity" if ago is None else "today" if ago == 0 else "yesterday" if ago == 1 else f"{ago} days ago"
+    main = "#ff1e1e" if active else "#6b6b78"
+    alt = "#00eaff" if active else "#4a4a55"
+    status = "TINGLING" if active else "QUIET"
+    sub = f"last push: {when}"
+    pulse = ""
+    if active:
+        pulse = ('<animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/>')
+    lines = "".join(
+        f'<path d="{d}" fill="none" stroke="{c}" stroke-width="2.6" stroke-linecap="round">{pulse}</path>'
+        for d, c in [("M22,16 L16,6", main), ("M34,12 L34,2", alt), ("M46,16 L52,6", main),
+                     ("M12,24 L3,19", alt), ("M56,24 L65,19", alt)])
+    shake = ('<animateTransform attributeName="transform" type="translate" values="0,0;-1,0;1,0;0,0" '
+             'dur="0.18s" repeatCount="indefinite"/>') if active else ""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" width="400" height="64" role="img" aria-label="Spider-sense: {status.lower()}, {sub}">
+<rect width="400" height="64" rx="12" fill="#05050a" stroke="{main}" stroke-opacity=".6"/>
+<g transform="translate(14,22)"><g>{shake}
+{lines}
+<ellipse cx="34" cy="26" rx="8" ry="9" fill="{main}"/><ellipse cx="34" cy="14" rx="5.5" ry="6" fill="{main}"/>
+</g></g>
+<text x="92" y="29" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="{main}" letter-spacing="2">SPIDER-SENSE: {status}</text>
+<text x="92" y="48" font-family="Courier New,monospace" font-size="12" fill="#9a9aa8">{sub}</text>
+</svg>"""
+
+
 def main():
     if "--demo" in sys.argv:
-        weeks, total = demo()
+        weeks, total, last = demo()
     else:
-        weeks, total = fetch(os.environ["GITHUB_USER"], os.environ["GITHUB_TOKEN"])
+        weeks, total, last = fetch(os.environ["GITHUB_USER"], os.environ["GITHUB_TOKEN"])
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     open(OUT, "w", encoding="utf-8").write(build(weeks, total))
-    print("wrote", OUT)
+    open(SENSE_OUT, "w", encoding="utf-8").write(build_sense(last))
+    print("wrote", OUT, "and", SENSE_OUT)
 
 
 if __name__ == "__main__":
