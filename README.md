@@ -268,6 +268,6 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <br/>
 
-![Footer](https://capsule-render.vercel.app/api?type=rect&color=0:00eaff,35:000000,65:ff1e1e,100:000000&height=120&section=footer)
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-footer.svg" width="100%" alt="Glitch footer banner"/>
 
 </div>
