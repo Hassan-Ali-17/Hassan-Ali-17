@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-header.svg" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-emblem.svg" width="120"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-glitch.svg" width="120"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF1E1E&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%F0%9F%95%B8%EF%B8%8F;AI+%2F+ML+Engineer+%F0%9F%A4%96;Agentic+AI+Builder+%F0%9F%A7%A0;National+Winner+%E2%80%94+Act+in+Space+2026+%F0%9F%8F%86;CS+Student+%40+ITU+Lahore+%F0%9F%8E%93)](https://github.com/Hassan-Ali-17)
 
