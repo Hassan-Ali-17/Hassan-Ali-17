@@ -255,6 +255,9 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=SPIDEY+VISITORS&color=ff304f&style=for-the-badge&labelColor=0d0d0d)
 
+
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-contrib.svg" width="100%" alt="Spider-Verse contribution graph"/>
+
 <br/><br/>
 
 ### 🕸️ [hassan-ali-17.github.io](https://hassan-ali-17.github.io)
