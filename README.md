@@ -16,6 +16,7 @@
 
 <br/><br/>
 
+
 <a href="mailto:hassanaalipnd@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000"/>
 </a>
@@ -38,9 +39,10 @@
 
 <br/><br/>
 
+<a href="https://hassan-verse3-d.vercel.app/"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/rift-loader.svg" width="560" alt="Enter the Hassan-Verse"/></a>
 > 🕷️ **Want an immersive experience?** Step into the dimensional rift — **[Explore My 3D Interactive Desk Portfolio →](https://hassan-verse3-d.vercel.app/)**
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 </div>
 
@@ -65,7 +67,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 > Ambitious CS student with **hands-on industry experience** at an AI startup. I build everything from low-level C++ systems to production-grade full stack apps and agentic AI pipelines. I love hard problems that demand understanding the fundamentals.
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 ## `> tech.stack[]`
 
@@ -103,7 +105,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 ## `> spider_sense.scan(skills)`
 
@@ -115,7 +117,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 ## `> git log --featured`
 
@@ -219,7 +221,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 ## `> github.stats --realtime`
 
@@ -238,7 +240,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/glitch-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
 ## `> cat ./experience.log`
 
