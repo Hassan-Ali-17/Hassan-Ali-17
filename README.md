@@ -37,6 +37,8 @@
   <img src="https://img.shields.io/badge/Portfolio-hassan--ali--17.github.io-00eaff?style=for-the-badge&logo=githubpages&logoColor=000000&labelColor=000000"/>
 </a>
 
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-sense.svg" width="320" alt="Spider-sense status"/>
+
 <br/><br/>
 
 <a href="https://hassan-verse3-d.vercel.app/"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/rift-loader.svg" width="560" alt="Enter the Hassan-Verse"/></a>
