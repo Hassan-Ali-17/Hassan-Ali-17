@@ -42,7 +42,8 @@
 <br/><br/>
 
 <a href="https://hassan-verse3-d.vercel.app/"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/rift-loader.svg" width="560" alt="Enter the Hassan-Verse"/></a>
-> 🕷️ **Want an immersive experience?** Step into the dimensional rift — **[Explore My 3D Interactive Desk Portfolio →](https://hassan-verse3-d.vercel.app/)**
+> 🕷️ **Want an immersive experience?**
+> Step into the dimensional rift — **[Explore My 3D Interactive Desk Portfolio →](https://hassan-verse3-d.vercel.app/)**
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
