@@ -16,6 +16,10 @@
 
 <br/><br/>
 
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-sense.svg" width="320" alt="Spider-sense status"/>
+
+<br/><br/>
+
 
 <a href="mailto:hassanaalipnd@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000"/>
@@ -37,8 +41,6 @@
   <img src="https://img.shields.io/badge/Portfolio-hassan--ali--17.github.io-00eaff?style=for-the-badge&logo=githubpages&logoColor=000000&labelColor=000000"/>
 </a>
 
-<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-sense.svg" width="320" alt="Spider-sense status"/>
-
 <br/><br/>
 
 <a href="https://hassan-verse3-d.vercel.app/"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/rift-loader.svg" width="560" alt="Enter the Hassan-Verse"/></a>
@@ -51,24 +53,34 @@
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/who.svg" width="100%" alt="> who.am_i()"/>
 
-<img src="Hassan Ali Shah.jpg" width="150" height="150" style="border-radius:50%;border:3px solid #ff1e1e;" align="right"/>
+<table>
+<tr>
+<td width="190" align="center">
+<img src="Hassan%20Ali%20Shah.jpg" width="170" alt="Hassan Ali Shah"/>
+</td>
+<td>
+> Ambitious CS student with **hands-on industry experience** at AI startups. I build everything from low-level C++ systems to production-grade full stack apps and agentic AI pipelines. I love hard problems that demand understanding the fundamentals.
+ 
+**Right now:** building agentic AI pipelines and sharpening system design.
+ 
+</td>
+</tr>
+</table>
 
 ```python
 hassan = {
     "name"        : "Hassan Ali Shah",
-    "role"        : ["Full Stack Developer", "AI/ML Engineer", "CS Student"],
-    "university"  : "Information Technology University (ITU), Lahore",
-    "portfolio"   : "https://hassan-ali-17.github.io",
-    "currently"   : "Building Agentic AI systems & MERN apps",
-    "experience"  : "ML/AI Intern @ CAASIAC (2025)", "AI/ML Intern @ NeuroFive"
-    "passion"     : ["Generative AI", "Autonomous Systems", "System Design"],
-    "achievement" : "🏆 National Winner + International Rep — Act in Space 2026 (ESA & CNES, France)"
+    "role"        : ["Full Stack Dev", "AI/ML Engineer", "CS Student"],
+    "university"  : "ITU Lahore",
+    "currently"   : "Agentic AI systems & MERN apps",
+    "experience"  : ["ML/AI Intern @ CAASIAC",
+                     "AI/ML Intern @ NeuroFive"],
+    "passion"     : ["Generative AI", "Autonomous Systems"],
+    "achievement" : "🏆 National Winner, Act in Space 2026",
 }
-
+ 
 print("Building from bare-metal C++ → cloud-deployed AI systems.")
 ```
-
-> Ambitious CS student with **hands-on industry experience** at an AI startup. I build everything from low-level C++ systems to production-grade full stack apps and agentic AI pipelines. I love hard problems that demand understanding the fundamentals.
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
