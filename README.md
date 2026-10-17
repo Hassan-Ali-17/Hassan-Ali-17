@@ -49,7 +49,7 @@
 
 </div>
 
-## `> who.am_i()`
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/who.svg" width="100%" alt="> who.am_i()"/>
 
 <img src="Hassan Ali Shah.jpg" width="150" height="150" style="border-radius:50%;border:3px solid #ff1e1e;" align="right"/>
 
@@ -72,8 +72,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
-## `> tech.stack[]`
-
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/stack.svg" width="100%" alt="> tech.stack[]"/>
 <div align="center">
 
 **Languages**
@@ -110,7 +109,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
-## `> spider_sense.scan(skills)`
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/skills.svg" width="100%" alt="> spider_sense.scan(skills)"/>
 
 <div align="center">
 
@@ -122,7 +121,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
-## `> git log --featured`
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/featured.svg" width="100%" alt="> git log --featured"/>
 
 <div align="center">
 
@@ -226,7 +225,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
-## `> github.stats --realtime`
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/stats.svg" width="100%" alt="> github.stats --realtime"/>
 
 <div align="center">
 
@@ -245,7 +244,7 @@ Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/web-divider.svg" width="100%" alt=""/>
 
-## `> cat ./experience.log`
+<img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/headers/experience.svg" width="100%" alt="> cat ./experience.log"/>
 
 **ML/AI Engineering Intern @ CAASIAC** &nbsp;·&nbsp; `2024 – 2025`
 
