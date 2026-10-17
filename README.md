@@ -125,101 +125,15 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <div align="center">
 
-### 🕸️ [Hassan-Verse — Interactive 3D Desk Portfolio](https://hassan-verse3-d.vercel.app/)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=00eaff)
-![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=00eaff)
-![3D](https://img.shields.io/badge/3D%20Experience-ff1e1e?style=flat-square&labelColor=000000)
-![Interactive](https://img.shields.io/badge/Interactive-00eaff?style=flat-square&labelColor=000000)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-A fully interactive **3D portfolio built around a virtual desk** — explore my workspace in real-time 3D, click objects to discover projects, skills, and more. A one-of-a-kind immersive developer portfolio experience.
-
-**⚡ [Live Experience →](https://hassan-verse3-d.vercel.app/) — Put on headphones, grab a seat, and step into my world.**
-
----
-
-### 🗄️ [VORTEX OS — Custom Linux Environment](https://github.com/Hassan-Ali-17/Vortex_OS)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00eaff)
-![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=ff1e1e)
-![Operating System](https://img.shields.io/badge/Operating%20Systems-00eaff?style=flat-square&labelColor=000000)
-![Dev Shell](https://img.shields.io/badge/Shell%20Scripting-000000?style=flat-square&logo=gnubash&logoColor=00eaff)
-![Systems](https://img.shields.io/badge/Systems%20Programming-ff1e1e?style=flat-square&labelColor=000000)
-
-A custom Linux-based OS environment built on Ubuntu — featuring a hand-crafted Python shell, 6 live-switchable cyberpunk themes, command chaining, alias engine & persistent history. Evolving across 15 phases toward a fully bootable Linux distro.
-
-**⚡ Delivers ultra-low-latency inference with optimized AI pipelines for real-time decision systems.**
-
----
-
-### 🗄️ [Cost-Based SQL Query Optimizer](https://github.com/Hassan-Ali-17/Cost_Based_Query_Optimizer)
-![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=00eaff)
-![Algorithms](https://img.shields.io/badge/Algorithms-00eaff?style=flat-square&labelColor=000000)
-![Systems](https://img.shields.io/badge/Systems%20Programming-ff1e1e?style=flat-square&labelColor=000000)
-
-Full SQL optimizer from scratch — recursive-descent parser, Selinger DP join ordering, 4 rewrite rules, per-column statistics, SQL shell & EXPLAIN.
-
-**⚡ Achieves 100–1000× speedups over naive query plans.**
-
----
-
-### ⚡ [TaskFlow Pro](https://github.com/Hassan-Ali-17/Task_Flow_Pro)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00eaff)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![AI Powered](https://img.shields.io/badge/AI%20Powered-ff1e1e?style=flat-square&labelColor=000000)
-
-AI-powered universal team task management platform — assign coding, design, HR, marketing & more tasks in one workspace. Built-in compiler, AI feedback engine, and manager dashboard.
-
----
-
-### 💼 [FairGig — Softec 2026](https://github.com/Hassan-Ali-17/Softect26_project)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=00eaff)
-![Microservices](https://img.shields.io/badge/Microservices-ff1e1e?style=flat-square&labelColor=000000)
-![Analytics](https://img.shields.io/badge/Analytics-00eaff?style=flat-square&labelColor=000000)
-
-Platform for gig workers to track & verify earnings across platforms, with analytics dashboards and anomaly detection.
-
-**🏆 Secured Top 5 at Softec 2026.**
-
----
-
-### 🍔 [Zaiqa On Wheels](https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00eaff)
-![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=ff1e1e)
-
-Full-stack food & grocery ordering platform with complete ordering and delivery flow.
-
----
-
-### 🚗 [Rental Car App (C++)](https://github.com/Hassan-Ali-17/rental_car_app_project)
-![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=00eaff)
-![Low Level](https://img.shields.io/badge/Low--Level-00eaff?style=flat-square&labelColor=000000)
-![File I/O](https://img.shields.io/badge/File%20I%2FO-ff1e1e?style=flat-square&labelColor=000000)
-
-Feature-rich car rental system — raw arrays, dynamic memory, file I/O. **Zero STL, fully from scratch.**
-
----
-
-### 🚢 [Fleet Crisis Command](https://github.com/Hassan-Ali-17/webdev)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=00eaff)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00eaff)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-000000?style=flat-square&logo=socket.io&logoColor=ff1e1e)
-![AI Powered](https://img.shields.io/badge/AI%20Powered-ff1e1e?style=flat-square&labelColor=000000)
-![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=00eaff)
-
-Real-time naval fleet management system — live ship tracking on an interactive map, AI-powered crisis advisor, distress signal handling, and multi-role command dashboard. Built with Next.js frontend, Flask + Socket.IO backend, and Docker Compose.
-
-⚡ Ships move in real-time with smooth interpolation — deployed on Vercel + Railway.
-
----
-
-### ♟️ [Scrabble Game (C++ & SFML)](https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble)
-![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=00eaff)
-![SFML](https://img.shields.io/badge/SFML-000000?style=flat-square&labelColor=000000)
-![OOP](https://img.shields.io/badge/OOP-ff1e1e?style=flat-square&labelColor=000000)
-
-Full digital Scrabble on a 15×15 board with scoring logic and SFML graphics.
+<a href="https://hassan-verse3-d.vercel.app/"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-1.svg" width="49%" alt="Earth-1: Hassan-Verse 3D Portfolio"/></a>
+<a href="https://github.com/Hassan-Ali-17/Cost_Based_Query_Optimizer"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-2.svg" width="49%" alt="Earth-2: Cost-Based Query Optimizer"/></a>
+<a href="https://github.com/Hassan-Ali-17/Softect26_project"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-3.svg" width="49%" alt="Earth-3: FairGig"/></a>
+<a href="https://github.com/Hassan-Ali-17/webdev"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-4.svg" width="49%" alt="Earth-4: Fleet Crisis Command"/></a>
+<a href="https://github.com/Hassan-Ali-17/Vortex_OS"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-5.svg" width="49%" alt="Earth-5: VORTEX OS"/></a>
+<a href="https://github.com/Hassan-Ali-17/Task_Flow_Pro"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-6.svg" width="49%" alt="Earth-6: TaskFlow Pro"/></a>
+<a href="https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-7.svg" width="49%" alt="Earth-7: Zaiqa On Wheels"/></a>
+<a href="https://github.com/Hassan-Ali-17/rental_car_app_project"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-8.svg" width="49%" alt="Earth-8: Rental Car App"/></a>
+<a href="https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-9.svg" width="49%" alt="Earth-9: Scrabble"/></a>
 
 </div>
 
