@@ -134,6 +134,8 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 <a href="https://github.com/Hassan-Ali-17/Zaiqa-On-Wheels-Food-and-groceries-ordering-website"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-7.svg" width="49%" alt="Earth-7: Zaiqa On Wheels"/></a>
 <a href="https://github.com/Hassan-Ali-17/rental_car_app_project"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-8.svg" width="49%" alt="Earth-8: Rental Car App"/></a>
 <a href="https://github.com/Hassan-Ali-17/Oop-Sem-proj-Scrabble"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-9.svg" width="49%" alt="Earth-9: Scrabble"/></a>
+<a href="https://github.com/Hassan-Ali-17/DOS-SHELL"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-10.svg" width="49%" alt="Earth-10: DOS-SHELL"/></a>
+<a href="https://github.com/Hassan-Ali-17/itachi"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-11.svg" width="49%" alt="Earth-11: Itachi Interactive"/></a> <a href="https://github.com/Hassan-Ali-17/Spiderman_lens"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/earths/earth-12.svg" width="49%" alt="Earth-12: Spiderman Lens"/></a>
 
 </div>
 
