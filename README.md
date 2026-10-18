@@ -194,8 +194,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 <br/><br/>
 
-### 🕸️ [hassan-ali-17.github.io](https://hassan-ali-17.github.io)
-
+<a href="https://hassan-ali-17.github.io"><img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/portfolio-link.svg" width="520" alt="Open my portfolio: hassan-ali-17.github.io"/></a>
 <br/>
 
 *"Great code, like a great hero, isn't about the suit — it's about who's wearing it."*
