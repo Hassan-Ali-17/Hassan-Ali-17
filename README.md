@@ -187,7 +187,7 @@ print("Building from bare-metal C++ → cloud-deployed AI systems.")
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Hassan-Ali-17&label=SPIDEY+VISITORS&color=ff304f&style=for-the-badge&labelColor=0d0d0d)
 <br/><br/>
-![Profile Views](https://hits.sh/github.com/Hassan-Ali-17/Hassan-Ali-17.svg?style=for-the-badge&label=SPIDEY%20VISITORS&color=ff304f&labelColor=0d0d0d)
+
 
 
 <img src="https://raw.githubusercontent.com/Hassan-Ali-17/Hassan-Ali-17/main/assets/spider-contrib.svg" width="100%" alt="Spider-Verse contribution graph"/>
