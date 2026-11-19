@@ -56,7 +56,7 @@
 <table>
 <tr>
 <td width="190" align="center">
-<img src="Hassan%20Ali%20Shah.jpg" width="170" alt="Hassan Ali Shah"/>
+<img src="Hassan-Ali-Shah.jpg" width="170" alt="Hassan Ali Shah"/>
 </td>
 <td>
 > Ambitious CS student with **hands-on industry experience** at AI startups. I build everything from low-level C++ systems to production-grade full stack apps and agentic AI pipelines. I love hard problems that demand understanding the fundamentals.
