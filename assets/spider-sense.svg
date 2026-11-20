@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" width="400" height="64" role="img" aria-label="Spider-sense: tingling, last push: today">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" width="400" height="64" role="img" aria-label="Spider-sense: tingling, last push: yesterday">
 <rect width="400" height="64" rx="12" fill="#05050a" stroke="#ff1e1e" stroke-opacity=".6"/>
 <g transform="translate(14,22)"><g><animateTransform attributeName="transform" type="translate" values="0,0;-1,0;1,0;0,0" dur="0.18s" repeatCount="indefinite"/>
 <path d="M22,16 L16,6" fill="none" stroke="#ff1e1e" stroke-width="2.6" stroke-linecap="round"><animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/></path><path d="M34,12 L34,2" fill="none" stroke="#00eaff" stroke-width="2.6" stroke-linecap="round"><animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/></path><path d="M46,16 L52,6" fill="none" stroke="#ff1e1e" stroke-width="2.6" stroke-linecap="round"><animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/></path><path d="M12,24 L3,19" fill="none" stroke="#00eaff" stroke-width="2.6" stroke-linecap="round"><animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/></path><path d="M56,24 L65,19" fill="none" stroke="#00eaff" stroke-width="2.6" stroke-linecap="round"><animate attributeName="opacity" values="1;.25;1" dur="0.9s" repeatCount="indefinite"/></path>
 <ellipse cx="34" cy="26" rx="8" ry="9" fill="#ff1e1e"/><ellipse cx="34" cy="14" rx="5.5" ry="6" fill="#ff1e1e"/>
 </g></g>
 <text x="92" y="29" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#ff1e1e" letter-spacing="2">SPIDER-SENSE: TINGLING</text>
-<text x="92" y="48" font-family="Courier New,monospace" font-size="12" fill="#9a9aa8">last push: today</text>
+<text x="92" y="48" font-family="Courier New,monospace" font-size="12" fill="#9a9aa8">last push: yesterday</text>
 </svg>
