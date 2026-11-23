@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" width="400" height="64" role="img" aria-label="Spider-sense: quiet, last push: 3 days ago">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" width="400" height="64" role="img" aria-label="Spider-sense: quiet, last push: 4 days ago">
 <rect width="400" height="64" rx="12" fill="#05050a" stroke="#6b6b78" stroke-opacity=".6"/>
 <g transform="translate(14,22)"><g>
 <path d="M22,16 L16,6" fill="none" stroke="#6b6b78" stroke-width="2.6" stroke-linecap="round"></path><path d="M34,12 L34,2" fill="none" stroke="#4a4a55" stroke-width="2.6" stroke-linecap="round"></path><path d="M46,16 L52,6" fill="none" stroke="#6b6b78" stroke-width="2.6" stroke-linecap="round"></path><path d="M12,24 L3,19" fill="none" stroke="#4a4a55" stroke-width="2.6" stroke-linecap="round"></path><path d="M56,24 L65,19" fill="none" stroke="#4a4a55" stroke-width="2.6" stroke-linecap="round"></path>
 <ellipse cx="34" cy="26" rx="8" ry="9" fill="#6b6b78"/><ellipse cx="34" cy="14" rx="5.5" ry="6" fill="#6b6b78"/>
 </g></g>
 <text x="92" y="29" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#6b6b78" letter-spacing="2">SPIDER-SENSE: QUIET</text>
-<text x="92" y="48" font-family="Courier New,monospace" font-size="12" fill="#9a9aa8">last push: 3 days ago</text>
+<text x="92" y="48" font-family="Courier New,monospace" font-size="12" fill="#9a9aa8">last push: 4 days ago</text>
 </svg>
